@@ -1,4 +1,1 @@
-kindle-nt-l10n-sk
-=================
-
-Slovak localization for Kindle Non-Touch
+loc_hack/src/citaj-ma-utf8.txt
