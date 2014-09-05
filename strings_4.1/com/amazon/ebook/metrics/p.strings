@@ -1,0 +1,269 @@
+
+InnerClasses
+Metric
+MetricsGroup
+URLMetricsData
+I
+ConstantValue
+Ljava/lang/String;
+Ljava/util/List;
+J
+getInstance
+Code
+LineNumberTable
+<init>
+()V
+LocalVariableTable
+()Z
+(Ljava/lang/String;)Z
+Ljava/lang/StringBuffer;
+Ljava/util/Iterator;
+(Ljava/net/URLConnection;)V
+Ljava/net/URLConnection;
+(Z)V
+Z
+(Ljava/lang/String;)V
+b
+(I)V
+()Ljava/lang/String;
+()I
+(Z)I
+g
+(Ljava/lang/String;)Ljava/lang/String;
+[Ljava/lang/String;
+(Ljava/net/URLConnection;Ljava/lang/String;I)I
+e
+Ljava/lang/NumberFormatException;
+Synthetic
+<clinit>
+SourceFile
+Store
+java/util/LinkedList
+java/lang/StringBuffer
+startRequest(
+) called without calling endRequest() on 
+previous metrics group, discarding [
+]
+Metrics collection started for action: 
+Restarting metrics group [
+Attempt to end metrics group with event 
+ when no group was active
+Discarding event 
+ since there is no active metrics group.
+Setting current group to request failed, reason: 
+Couldn't set request to fail: No active metrics group.
+Removing expired metrics group from buffer, older than 
+m [
+mx
+Appending 
+ buffered StoreMetric(s) to the request query string. (
+ extra chars)
+c=
+x-amz-csm-consumed
+0
+Cleared 
+ pending buffered StoreMetric(s)
+Response header x-amz-csm-consumed was not set or was set to zero; retaining 
+ buffered StoreMetric(s)
+x-amz-csm-upload-disable
+Response header x-amz-csm-upload-disable was set to non-zero value. StoreMetrics for this request will not be included in next flush.
+x-amz-csm-upload-ttl
+x-amz-csm-buffer-limit
+Invalidating current metrics - 
+ [
+store exiting
+Buffer size limit changing from 
+ to 
+Metrics buffer size at or exceeds limit of 
+, removing oldest metrics from buffer: [
+Metrics added to buffer.
+ 
+(cumulative: 
+)
+ removed to make room.
+ Buffer size: 
+/
+Metrics upload disabled for this page - not adding to buffer.
+Request complete. Metrics dump:[
+Removing expired metric group from buffer, older than 
+?
+&
+StoreMetrics response header 
+ override set to 
+ with value 
+ less than minimum value 
+java/lang/NumberFormatException
+ could not be parsed as int
+StoreMetrics
+java/lang/Object
+getEvent
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+toString
+getName
+java/util/List
+size
+addAll
+(Ljava/util/Collection;)Z
+clear
+iterator
+()Ljava/util/Iterator;
+java/util/Iterator
+hasNext
+next
+()Ljava/lang/Object;
+(J)Ljava/lang/StringBuffer;
+remove
+(C)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+java/lang/String
+length
+indexOf
+(I)I
+charAt
+(I)C
+java/net/URLConnection
+getHeaderField
+equals
+(Ljava/lang/Object;)Z
+java/lang/System
+currentTimeMillis
+()J
+getSize
+(ILjava/util/Collection;)Z
+(I)Ljava/lang/Object;
+add
+split
+(Ljava/lang/String;C)[Ljava/lang/String;
+startsWith
+java/lang/Integer
+parseInt
+(Ljava/lang/String;)I
+f
+K
+Lcom/amazon/ebook/metrics/p;
+l
+L
+m
+a
+Lcom/amazon/ebook/metrics/d;
+Lcom/amazon/ebook/util/log/p;
+F
+k
+h
+j
+D
+M
+Lcom/amazon/ebook/util/log/b;
+A
+qLb
+(Lcom/amazon/ebook/metrics/p;)J
+yjb
+(Lcom/amazon/ebook/metrics/p;)I
+pkb
+lKb
+zjb
+xKb
+qKb
+()Lcom/amazon/ebook/metrics/d;
+uLb
+cLb
+OLb
+iJb
+tJb
+UKb
+CKb
+lLb
+VKb
+yJb
+fJb
+Jkb
+ekb
+Akb
+mlb
+KJb
+XJb
+emb
+Gkb
+RJb
+sLb
+Dmb
+SJb
+Zlb
+MJb
+(Ljava/lang/String;)Lcom/amazon/ebook/metrics/h;
+Nkb
+OKb
+(Lcom/amazon/ebook/metrics/b;)Z
+Lcom/amazon/ebook/metrics/b;
+Tlb
+(Lcom/amazon/ebook/metrics/y;)Z
+Lcom/amazon/ebook/metrics/y;
+imb
+akb
+(Lcom/amazon/ebook/metrics/o;)Z
+Lcom/amazon/ebook/metrics/o;
+()Lcom/amazon/ebook/metrics/p;
+com/amazon/ebook/metrics/p
+pyb
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/b;
+KA
+Jmb
+(Lcom/amazon/ebook/metrics/d;I)V
+mmb
+(Lcom/amazon/ebook/metrics/d;)I
+kkb
+tLb
+Glb
+(Lcom/amazon/ebook/metrics/d;)V
+rKb
+xLb
+(Lcom/amazon/ebook/metrics/d;)Z
+Lmb
+BJb
+jkb
+(Lcom/amazon/ebook/metrics/d;Ljava/lang/String;)V
+Imb
+(Lcom/amazon/ebook/metrics/d;Z)V
+XKb
+Elb
+Olb
+Ekb
+phb
+Zeb
+(Lcom/amazon/ebook/metrics/p;Ljava/lang/String;ILcom/amazon/ebook/metrics/c;)V
+yKb
+(Lcom/amazon/ebook/metrics/d;)J
+Lkb
+(Lcom/amazon/ebook/metrics/p;Ljava/lang/String;Lcom/amazon/ebook/metrics/c;)V
+dlb
+Qhb
+Vjb
+(Lcom/amazon/ebook/metrics/d;Lcom/amazon/ebook/metrics/b;)Z
+JLb
+(Lcom/amazon/ebook/metrics/d;)Lcom/amazon/ebook/metrics/o;
+oHb
+GwA
+(Lcom/amazon/ebook/metrics/p;Lcom/amazon/ebook/metrics/o;JIILcom/amazon/ebook/metrics/c;)V
+vlb
+skb
+bzA
+cIb
+()Lcom/amazon/ebook/metrics/b;
+PLb
+()Lcom/amazon/ebook/metrics/v;
+RLb
+CLb
+(Lcom/amazon/ebook/metrics/p;Lcom/amazon/ebook/metrics/c;)V
+(Ljava/lang/String;Lcom/amazon/ebook/util/log/b;)V
+com/amazon/ebook/util/text/o
+com/amazon/ebook/metrics/b
+com/amazon/ebook/metrics/o
+com/amazon/ebook/util/log/b
+com/amazon/ebook/metrics/v
+com/amazon/ebook/metrics/c
+com/amazon/ebook/metrics/h
+com/amazon/ebook/metrics/y
+com/amazon/ebook/metrics/d
+com/amazon/ebook/util/log/p

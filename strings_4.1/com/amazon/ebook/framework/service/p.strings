@@ -1,0 +1,15 @@
+(Ljava/net/URI;)V
+Exceptions
+back
+()V
+SourceFile
+java/lang/Object
+com/amazon/ebook/framework/kos/event/HistoryException
+java/net/URISyntaxException
+oL
+(Lcom/amazon/ebook/framework/h;Ljava/lang/String;)V
+bB
+XJ
+com/amazon/ebook/framework/service/p
+dh
+LocalVariableTable

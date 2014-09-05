@@ -1,0 +1,17 @@
+I
+<init>
+(I)V
+Code
+LineNumberTable
+LocalVariableTable
+getValue
+()I
+SourceFile
+java/lang/Object
+()V
+f
+ilc
+a
+Lcom/amazon/ebook/booklet/reader/gui/view/pagecontentview/ab;
+com/amazon/ebook/booklet/reader/gui/view/pagecontentview/ab
+tre

@@ -1,0 +1,87 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_it;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+device.policy.will.reboot.message
+Kindle sta per essere riavviato. Il processo inizierà a breve. Attendi finché il dispositivo non si sarà completamente riavviato.
+device.policy.default.devicetype
+Questo Kindle è un dispositivo gestito.
+device.policy.default.feature
+Questa funzionalità è bloccata.
+device.policy.default.contact
+l’amministratore di sistema
+device.policy.default.customer
+Assistenza clienti Kindle all’indirizzo www.kindle.com/support
+device.policy.parental.devicetype
+Questo Kindle è un dispositivo limitato.
+device.policy.parental.feature
+device.policy.password.required.template
+java/text/MessageFormat
+{0} Richiede una password. Per ulteriori informazioni, contattare: {1}.
+device.policy.disabled.template
+{0} {1} Per ulteriori informazioni, contattare: {2}.
+device.policy.factory.reset.template
+{0} Saranno ripristinate le impostazioni di fabbrica predefinite e tutto il contenuto scaricato e trasferito sarà eliminato. Il processo inizierà a brave. Attendi la fine del processo. Per informazioni aggiuntive, contatta: {1}.
+parental.action.disabled.template
+Parental Control abilitato sul tuo Kindle. {0}
+parental.device.policy.action.experimental.browser.disabled
+Il Browser web è bloccato.
+parental.device.policy.action.kindlestore.disabled
+Il Kindle Store è bloccato.
+parental.device.policy.action.archiveditems.disabled
+Gli Elementi Archiviati sono bloccati.
+parental.device.policy.action.activecontent.disabled
+Gli elementi attivi sono bloccati.
+parental.device.policy.action.purchases.disabled
+Gli acquisti sono bloccati.
+parental.device.policy.action.settings.deregistration.disabled
+La funzione di cancellazione registrazione è bloccata.
+device.policy.default.password.hint
+Password predefinita attivata
+device.policy.disabled.name.registration
+La registrazione è bloccata.
+device.policy.action.settings.deregistration.disabled
+device.policy.action.settings.editdevicename.disabled
+La modifica del nome del dispositivo è bloccata.
+device.policy.action.settings.wifisettings.disabled
+La configurazione delle Impostazioni Wi-Fi è bloccata.
+device.policy.action.settings.managesocialnetworks.disabled
+La configurazione dei Social Network è bloccata.
+device.policy.action.settings.togglepopularhighlights.disabled
+La configurazione delle Evidenziazioni frequenti è bloccata.
+device.policy.action.settings.togglepublicnotes.disabled
+La configurazione delle Note pubbliche è bloccata.
+device.policy.action.settings.toggleannotationsbackup.disabled
+La configurazione del Backup delle annotazioni è bloccata.
+device.policy.action.settings.editpersonalinfo.disabled
+Le Informazioni personali sono bloccate.
+device.policy.action.settings.changelanguage.disabled
+La configurazione della Lingua dispositivo è bloccata.
+device.policy.action.settings.changeprimarydictionary.disabled
+Le modifiche ai dizionari sono bloccate.
+device.policy.action.settings.turnonpassword.disabled
+La configurazione della password è bloccata.
+device.policy.action.experimental.browser.disabled
+device.policy.action.kindlestore.disabled
+Kindle Store è bloccato.
+device.policy.action.activecontent.disabled
+Il Contenuto attivo è bloccato.
+device.policy.action.experimental.mp3player.disabled
+Il Lettore MP3 è bloccato.
+device.policy.action.builtingames.disabled
+Il gioco è bloccato.
+com/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_it
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+f
+a
+zed

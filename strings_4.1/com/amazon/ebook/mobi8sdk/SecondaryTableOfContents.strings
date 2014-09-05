@@ -1,0 +1,10 @@
+getFirstEntry
+()Lcom/amazon/ebook/mobi8sdk/TableOfContentsEntry;
+Exceptions
+getLabelId
+()Ljava/lang/String;
+getClassId
+com/amazon/ebook/mobi8sdk/SecondaryTableOfContents
+java/lang/Object
+com/amazon/ebook/mobi8sdk/Disposable
+com/amazon/ebook/mobi8sdk/Mobi8SDKException

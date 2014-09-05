@@ -1,0 +1,15 @@
+<init>
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/device/comm/AirPlaneModeException;
+Ljava/lang/String;
+Ljava/lang/Throwable;
+(Ljava/lang/String;)V
+(Ljava/lang/Throwable;)V
+SourceFile
+com/amazon/ebook/framework/device/comm/AirPlaneModeException
+java/lang/Exception
+a
+vmd

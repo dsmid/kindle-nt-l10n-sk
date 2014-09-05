@@ -1,0 +1,26 @@
+#!/bin/bash
+
+rm -f translation_4.1.jar
+
+mkdir -p build 2>/dev/null
+cp -Rf translation_4.1/translation build/
+find build/translation -type d -name '.svn' -exec rm -Rf {} \;
+
+cd translation_4.1
+find translation -name '*.properties' -exec native2ascii {} ../build/{} \;
+cd ..
+
+cd build/translation
+find com -name '*.translation' -exec sh -c 'awk '"'"'BEGIN {RS="\r?\n";ORS="";FS="\t"} $2!="" {print $0 "\r\n"; next} {print $1 "\t" $1 "\r\n"}'"'"' < {} > {}.tmp' \;
+
+find com -name '*.translation.tmp' -exec rename  '.translation.tmp' '.class' {} \;
+find com -name '*.translation' -exec rm -f {} \;
+zip -r ../../translation_4.1.jar com
+cd ../..
+
+cp -f translation_4.1.jar loc_hack/src/translation.jar
+ln -sf loc_hack/src/translation.jar translation.jar
+
+rm -Rf translation_4.1/translation_jar/com
+cp -lRf build/translation/com translation_4.1/translation_jar/
+rm -Rf build/translation

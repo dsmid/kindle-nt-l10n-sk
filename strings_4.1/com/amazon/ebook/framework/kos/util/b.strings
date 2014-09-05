@@ -1,0 +1,105 @@
+Ljava/lang/String;
+ConstantValue
+Ljava/util/ResourceBundle;
+Code
+LineNumberTable
+LocalVariableTable
+e
+Ljava/lang/Exception;
+<init>
+(Ljava/lang/String;)Z
+(Ljava/lang/String;)Ljava/lang/String;
+I
+Lcom/amazon/ebook/framework/BookletException;
+<clinit>
+()V
+SourceFile
+java/lang/Exception
+java/lang/IllegalArgumentException
+Booklet cannot be null!
+com.amazon.ebook.framework.resources.ExternalLink
+link.prefix.xyml.detail
+link.prefix.xyml.buy
+link.prefix.xyml.book.asin.symbol
+link.prefix.xyml.book.asin.dummy
+http
+https
+com/amazon/ebook/framework/BookletException
+ExternalLinkDispatcher
+Cannot dispatch null link.
+Failed to send browser event.
+Failed to launch BUY.
+Failed to launch DETAIL.
+ASIN and current Booklet can not be NULL
+URL and current Booklet can not be NULL
+Prefix not recognized.  External link provided does not refer to an action.
+Failed to dispatch.  Exception thrown.
+java/lang/Object
+(Ljava/lang/String;)V
+java/util/ResourceBundle
+getBundle
+(Ljava/lang/String;)Ljava/util/ResourceBundle;
+getString
+java/lang/String
+trim
+()Ljava/lang/String;
+startsWith
+lastIndexOf
+(Ljava/lang/String;)I
+length
+()I
+substring
+(I)Ljava/lang/String;
+getBookletContext
+getBookletServices
+getInstance
+(Ljava/lang/String;[Ljava/lang/String;)V
+f
+Lcom/amazon/ebook/framework/h;
+K
+Lcom/amazon/ebook/util/log/w;
+l
+L
+m
+a
+J
+F
+Lcom/amazon/ebook/util/log/b;
+g
+k
+h
+j
+D
+b
+M
+FMb
+(Ljava/lang/String;Lcom/amazon/ebook/framework/h;)Z
+Lcom/amazon/ebook/framework/kos/event/p;
+Apb
+MMb
+TNb
+Lcom/amazon/ebook/framework/kos/util/b;
+rnb
+(Lcom/amazon/ebook/framework/h;)V
+vNb
+(Lcom/amazon/ebook/framework/h;Ljava/lang/String;)Z
+com/amazon/ebook/framework/kos/util/b
+tjc
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/b;
+TL
+(Lcom/amazon/ebook/framework/kos/event/p;)V
+Mm
+(ILjava/lang/Object;Z)Lcom/amazon/ebook/framework/kos/event/p;
+()Lcom/amazon/ebook/framework/service/b;
+()Lcom/amazon/ebook/framework/a/h;
+VHb
+(Lcom/amazon/ebook/util/log/w;[Ljava/lang/String;Ljava/lang/String;)V
+gGb
+(Lcom/amazon/ebook/util/log/w;)V
+rGb
+(Lcom/amazon/ebook/util/log/w;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+com/amazon/ebook/framework/service/b
+com/amazon/ebook/framework/a/h
+com/amazon/ebook/framework/h
+com/amazon/ebook/util/log/b
+com/amazon/ebook/util/log/w

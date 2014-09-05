@@ -1,0 +1,61 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/pagecontentview/resources/PageContentViewResources_it;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+popular.highlight.label.hint.show
+Premere {0} per visualizzare gli utenti evidenziazioni
+java/lang/String
+5way_icon.gif
+popular.highlight.label.hint.hide
+Premere {0} per nascondere gli utenti evidenziazioni
+publisher.label.hint.show
+Premere {0} per mostrare note
+publisher.label.hint.hide
+Premere {0} per nascondere note
+popular.highlight.and.publisher.label.hint.show
+Premere {0} per mostrare note ed evidenziazioni di altri utenti
+popular.highlight.and.publisher.label.hint.hide
+Premere {0} per nascondere note ed evidenziazioni di altri utenti
+pan.rectange.x.divider
+java/lang/Integer
+pan.rectange.y.divider
+pan.rectange.x.multiplier
+pan.rectange.y.multiplier
+pan.rectange.x.offset
+pan.rectange.y.offset
+selection.instruction.bound.x.offset
+selection.instruction.bound.y.margin
+selection.instruction.baseline
+selection.instruction.bound.box.width
+color.foreground
+color.background
+footer.font
+article.number.annoucement
+articolo {0} di {1}
+com/amazon/ebook/booklet/reader/gui/view/pagecontentview/resources/PageContentViewResources_it
+java/util/ListResourceBundle
+(Ljava/lang/String;[Ljava/lang/String;I)V
+(I)V
+Ljava/awt/Color;
+getInstance
+(I)Ljava/awt/Font;
+(Ljava/lang/String;)V
+f
+a
+lse
+sVb
+()Lcom/amazon/ebook/framework/font/h;
+C
+I
+com/amazon/ebook/framework/font/h
+com/amazon/ebook/framework/gui/c
+com/amazon/ebook/booklet/reader/gui/infobox/y

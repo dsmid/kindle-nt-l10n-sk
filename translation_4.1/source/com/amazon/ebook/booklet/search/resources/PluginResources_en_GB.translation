@@ -1,0 +1,11 @@
+tip	
+gratuity	
+Tip on {0,number,currency}: {1,number,percent} = {2,number,currency}, {3,number,percent} = {4,number,currency}, {5,number,percent} = {6,number,currency}, {7,number,percent} = {8,number,currency}	
+Tip on {0,number,currency}:~~{1,number,percent} = {2,number,currency}, total {3,number,currency}~~{4,number,percent} = {5,number,currency}, total {6,number,currency}~~{7,number,percent} = {8,number,currency}, total {9,number,currency}~~{10,number,percent} = {11,number,currency}, total {12,number,currency}	
+Currently: {0,date,medium} {0,time,medium}	
+Time Zone: {2}	
+Date: {0,date,full}~~Time: {0,time,long}~~Zone ID: {1}~~Time Zone: {2}	
+what time is it?	
+time	
+date	
+ Time Zone: {2}	

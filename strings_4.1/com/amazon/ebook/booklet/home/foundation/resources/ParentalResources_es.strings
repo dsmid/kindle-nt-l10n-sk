@@ -1,0 +1,59 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ParentalResources_es;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+header.text
+Control paterno
+desc.body.text
+Si el Control paterno está activado, las funciones de Anular registro y Restablecer la configuración de fábrica estarán desactivadas. ~~~~Aunque se bloquee la Tienda Kindle, podrás seguir comprando libros desde el ordenador y enviarlos a tu Kindle.
+desc.cursor.text
+
+cursor.set
+establecer
+body.text
+Especificar restricciones en tu Kindle.
+body.text.disabled
+Este Kindle es un dispositivo gestionado. El control paterno está bloqueado.
+widget.browser.header
+Navegador web
+widget.store.header
+Tienda Kindle
+widget.archive.header
+Contenido archivado
+widget.browser.body
+Acceder al navegador web experimental
+widget.store.body
+Acceder a la Tienda Kindle
+widget.archive.body
+Acceder al Contenido archivado
+widget.cursor.on
+activar
+widget.cursor.off
+desactivar
+password.body.text
+Establecer contraseña para el control paterno.
+submit.body.text
+Selecciona guardar para cambiar el control paterno y reiniciar tu Kindle.
+submit.header.text
+El control paterno ha cambiado:
+submit.button.submit.text
+guardar
+settings.widget.max.num.desc.lines
+java/lang/Integer
+parental.pwd.overlay.height
+parental.widget.spacing
+com/amazon/ebook/booklet/home/foundation/resources/ParentalResources_es
+java/util/ListResourceBundle
+(I)V
+f
+a
+xbg

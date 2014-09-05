@@ -1,0 +1,25 @@
+BOOKLET_DISBALED_TEMPLATE
+Ljava/lang/String;
+ConstantValue
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/impl/BookletDisabledException;
+SourceFile
+java/lang/StringBuffer
+ is disabled
+com/amazon/ebook/framework/impl/BookletDisabledException
+java/lang/RuntimeException
+()V
+getName
+()Ljava/lang/String;
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+(Ljava/lang/String;)V
+(Lcom/amazon/ebook/framework/h;)V
+a
+Lcom/amazon/ebook/framework/h;
+qjd
+com/amazon/ebook/framework/h

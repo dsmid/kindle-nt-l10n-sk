@@ -1,0 +1,9 @@
+getSecondaryTOCCount
+()I
+Exceptions
+getSecondaryTOCByIndex
+(I)Lcom/amazon/ebook/mobi8sdk/SecondaryTableOfContents;
+com/amazon/ebook/mobi8sdk/SecondaryTOCProvider
+java/lang/Object
+com/amazon/ebook/mobi8sdk/Disposable
+com/amazon/ebook/mobi8sdk/Mobi8SDKException

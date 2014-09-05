@@ -1,0 +1,22 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/resources/ReaderResources_en;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+gui.reader_clippings.date.format
+java/text/SimpleDateFormat
+EEEE, MMMM dd, yyyy, hh:mm aa
+com/amazon/ebook/booklet/reader/resources/ReaderResources_en
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+f
+a
+xbe

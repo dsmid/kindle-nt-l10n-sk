@@ -1,0 +1,15 @@
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+Ljava/lang/String;
+()V
+SourceFile
+tK
+a
+Lcom/amazon/ebook/framework/impl/catalog/x;
+(Lcom/amazon/ebook/framework/a/h;Ljava/lang/String;)V
+Lcom/amazon/ebook/framework/a/h;
+com/amazon/ebook/framework/impl/catalog/x
+mcd
+com/amazon/ebook/framework/impl/catalog/h

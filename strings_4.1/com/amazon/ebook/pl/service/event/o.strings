@@ -1,0 +1,12 @@
+onBatteryStateChange
+onBatteryCritical
+()V
+onBatteryError
+SourceFile
+java/lang/Object
+(Lcom/amazon/ebook/pl/service/event/gb;)V
+(Lcom/amazon/ebook/pl/service/event/hb;)V
+com/amazon/ebook/pl/service/event/o
+ad
+com/amazon/ebook/pl/service/event/h
+LocalVariableTable

@@ -1,0 +1,163 @@
+C
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+()Ljava/lang/String;
+keyTyped
+(Ljava/awt/event/KeyEvent;)V
+Ljava/awt/event/KeyEvent;
+I
+Ljava/lang/StringBuffer;
+[Ljava/lang/String;
+Ljava/lang/String;
+SourceFile
+com.amazon.ebook.booklet.reader.debugging.resources.PositionDebuggerResources
+dump.page.intervals
+dump.erl.and.length
+dump.cursor.state
+dump.element.at.cursor
+dump.table.of.contents.at.cursor
+java/lang/StringBuffer
+ = dump current page interval and first/last element intervals~~
+ = dump end reading location and book length~~
+ = dump cursor state~~
+ = dump element that cursor is on~~
+ = dump table of contents at cursor
+Current page interval: 
+Num lines on page: 
+First element on page: 
+Last element on page: 
+End reading location: 
+Book length: 
+Cursor is null!
+Position before cursor: 
+Position after cursor: 
+Cursor is on element? 
+, note? 
+, subscribed note? 
+Cursor is on line 
+Cursor is on word 
+Cursor is not on an element!
+Element interval at cursor: 
+Element has user note? 
+Element num subscribed notes: 
+
+Label: 
+Length: 
+Level: 
+Node Type: 
+Description: 
+Position: 
+Authors: 
+, 
+	
+TOCES is null
+(Ljava/lang/String;)V
+(Ljava/lang/String;)C
+append
+(C)Ljava/lang/StringBuffer;
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+java/awt/event/KeyEvent
+getKeyChar
+()C
+consume
+getInstance
+()I
+get
+size
+java/lang/System
+out
+Ljava/io/PrintStream;
+java/io/PrintStream
+println
+(I)Ljava/lang/StringBuffer;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+Lcom/amazon/ebook/booklet/reader/sdk/Position;
+com/amazon/ebook/booklet/reader/sdk/Position
+()Ljava/lang/Integer;
+java/lang/Integer
+intValue
+()Z
+()Lcom/amazon/ebook/booklet/reader/sdk/Position;
+(Z)Ljava/lang/StringBuffer;
+()Ljava/util/List;
+java/util/List
+getLabel
+getLength
+getLevel
+getPosition
+getAuthors
+()[Ljava/lang/String;
+f
+K
+l
+L
+GQc
+a
+Lcom/amazon/ebook/booklet/reader/debugging/c;
+Lcom/amazon/ebook/booklet/reader/state/b;
+[Lcom/amazon/ebook/booklet/reader/sdk/y;
+Lcom/amazon/ebook/booklet/reader/sdk/y;
+zrc
+Lcom/amazon/ebook/booklet/reader/zc;
+Lcom/amazon/ebook/booklet/reader/sdk/f;
+Lcom/amazon/ebook/booklet/reader/state/w;
+Wpc
+PQc
+RPc
+Lcom/amazon/ebook/booklet/reader/sdk/n;
+Vqc
+com/amazon/ebook/booklet/reader/debugging/c
+ljf
+nj
+Fs
+frc
+(Lcom/amazon/ebook/booklet/reader/sdk/Position;)[Lcom/amazon/ebook/booklet/reader/sdk/y;
+Xxc
+()Lcom/amazon/ebook/booklet/reader/gui/y;
+vmB
+HOB
+rNB
+Wvc
+()Lcom/amazon/ebook/booklet/reader/sdk/f;
+qwB
+bOB
+HVB
+TxB
+FWB
+fVB
+nwB
+NR
+()Lcom/amazon/ebook/booklet/reader/state/b;
+uxc
+lp
+IOB
+J
+ONc
+()Lcom/amazon/ebook/booklet/reader/metadata/endactions/u;
+Qo
+kPc
+()Lcom/amazon/ebook/booklet/reader/sdk/d;
+aCc
+(Lcom/amazon/ebook/booklet/reader/sdk/f;)Lcom/amazon/ebook/booklet/reader/state/w;
+(I)Lcom/amazon/ebook/booklet/reader/sdk/f;
+uO
+(I)Lcom/amazon/ebook/booklet/reader/sdk/n;
+brB
+ndc
+()Lcom/amazon/ebook/booklet/reader/state/w;
+()Lcom/amazon/ebook/booklet/reader/zc;
+zQc
+com/amazon/ebook/booklet/reader/sdk/y
+com/amazon/ebook/booklet/reader/gui/y
+com/amazon/ebook/booklet/reader/sdk/f
+com/amazon/ebook/booklet/reader/state/b
+com/amazon/ebook/booklet/reader/metadata/endactions/u
+com/amazon/ebook/booklet/reader/sdk/d
+com/amazon/ebook/booklet/reader/sdk/n
+com/amazon/ebook/booklet/reader/state/w
+com/amazon/ebook/booklet/reader/zc
+com/amazon/ebook/booklet/reader/debugging/h

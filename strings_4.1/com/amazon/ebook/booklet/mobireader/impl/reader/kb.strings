@@ -1,0 +1,54 @@
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+I
+Z
+(Ljava/lang/String;)V
+Ljava/lang/String;
+(III)Z
+([B)V
+[B
+()V
+<clinit>
+SourceFile
+MobiApplicationCommands.drawTableNavigation method not implemented.
+MobiApplicationCommands.makePhoneCall method not implemented.
+MobiApplicationCommands.onTableNavigation method not implemented.
+MobiApplicationCommands.openIndex method not implemented.
+MobiApplicationCommands.toolTip method not implemented.
+MobiApplicationCommands.buyBook method not implemented.
+MobiApplicationCommands
+java/lang/Object
+()Z
+getInstance
+f
+Lcom/amazon/ebook/booklet/mobireader/impl/reader/gb;
+K
+Lcom/amazon/ebook/util/log/b;
+sU
+(Lcom/mobipocket/common/library/reader/qd;Ljava/lang/String;)V
+a
+Lcom/amazon/ebook/booklet/mobireader/impl/reader/kb;
+Lcom/mobipocket/common/library/reader/qd;
+Fv
+EU
+dU
+(Lcom/mobipocket/common/library/reader/vb;)V
+Lcom/mobipocket/common/library/reader/vb;
+RS
+Us
+uS
+It
+Su
+(Lcom/amazon/a/b/c;IZ)V
+Lcom/amazon/a/b/c;
+(Lcom/amazon/ebook/booklet/mobireader/impl/reader/gb;)V
+com/amazon/ebook/booklet/mobireader/impl/reader/kb
+uqf
+com/mobipocket/common/library/reader/e
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/b;
+bzA
+cIb
+com/amazon/ebook/booklet/mobireader/impl/reader/gb
+com/amazon/ebook/util/log/b

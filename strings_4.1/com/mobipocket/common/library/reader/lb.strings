@@ -1,0 +1,17 @@
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+()I
+SourceFile
+java/lang/Object
+()V
+f
+Lcom/mobipocket/common/library/reader/sb;
+KjA
+a
+Lcom/mobipocket/common/library/reader/lb;
+(Lcom/mobipocket/common/library/reader/sb;)V
+com/mobipocket/common/library/reader/lb
+iu
+com/mobipocket/common/library/reader/sb

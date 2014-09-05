@@ -1,0 +1,33 @@
+Synthetic
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+UpdateConfiguration
+InnerClasses
+run
+()V
+SourceFile
+UpdateConfiguration.run: refresh started.
+UpdateConfiguration.run: refresh Completed.
+java/lang/Object
+java/lang/Runnable
+(Ljava/lang/String;)V
+f
+Lcom/amazon/ebook/booklet/oobe/c/y;
+a
+Lcom/amazon/ebook/booklet/oobe/c/d;
+(Lcom/amazon/ebook/booklet/oobe/c/y;)V
+com/amazon/ebook/booklet/oobe/c/d
+cnf
+dBC
+(Lcom/amazon/ebook/booklet/oobe/c/y;Z)V
+SbC
+ACC
+(Lcom/amazon/ebook/booklet/oobe/c/y;)Lcom/amazon/ebook/booklet/oobe/b/h;
+GwA
+b
+Lcom/amazon/ebook/util/log/b;
+com/amazon/ebook/booklet/oobe/b/h
+com/amazon/ebook/util/log/b
+com/amazon/ebook/booklet/oobe/c/y

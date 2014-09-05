@@ -1,0 +1,255 @@
+Navigator
+InnerClasses
+NextPageLayout
+Ljava/lang/Thread;
+Synthetic
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+()V
+()Z
+Z
+I
+getGuideItems
+i
+previousPage
+nextPage
+Ljava/lang/InterruptedException;
+Ljava/io/IOException;
+(I)V
+(II)V
+back
+Lcom/mobipocket/common/library/historizer/RestoreStateException;
+Lcom/mobipocket/common/library/reader/InvalidBookException;
+(ZZ)V
+
+SourceFile
+TABLE_FEATURE
+java/lang/StringBuffer
+[previousPage] Previous page asked... Current page begin position:
+. Current page end position:
+previousPage is not possible --> nothing done
+[previousPage] Known Previous Page
+keep the current page as next page
+[nextPage] Next page asked... Current page begin position:
+. Current page begin position:
+java/lang/InterruptedException
+[nextPage] Saving the TagStack with Current page end position:
+ and TagStack:
+java/io/IOException
+[parseKnownPage] ERROR during history saving: unexpected behaviour !
+ERROR during history saving: unexpected behaviour !
+no prelayouted page --> calculate current page
+strange pNextPage is null
+previous page position is less than current page end position
+position can't be < 0
+can't handle gotoPosition since no book was opened
+user Location can't be < 100
+com/mobipocket/common/library/historizer/RestoreStateException
+unable to restore back state
+Internal error - The position was not instanciated
+com/mobipocket/common/library/reader/InvalidBookException
+Can't open the TOCSection:
+Can't open the next Section:
+Stop prelayouting if it's still running
+Prelayouting of the current page cancelled --> Ready to prelayout a new page
+tagAndAttributeStack is null --> must not be
+java/lang/Object
+InternalNavigator
+(Z)V
+()I
+(IZZ)V
+java/util/Vector
+size
+elementAt
+(I)Ljava/lang/Object;
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+getEndPosition
+toString
+()Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;)V
+TableNavigation
+ObjectSelection
+(ILjava/lang/String;)V
+pop
+java/lang/Thread
+join
+printStackTrace
+(IZLjava/lang/String;)V
+Position
+getFont
+getHeight
+(III)V
+(I)I
+(ILjava/lang/String;Ljava/lang/Throwable;)V
+getMessage
+(Ljava/lang/Runnable;)V
+f
+Lcom/mobipocket/common/library/reader/yc;
+K
+Lcom/mobipocket/common/library/reader/ec;
+l
+VkA
+(Lcom/mobipocket/common/library/reader/wc;)Ljava/lang/Thread;
+a
+Lcom/mobipocket/common/library/reader/wc;
+llA
+(Lcom/mobipocket/common/library/reader/wc;)Lcom/mobipocket/common/library/reader/yc;
+nLA
+(Lcom/mobipocket/common/library/reader/wc;Ljava/lang/Thread;)Ljava/lang/Thread;
+(Lcom/mobipocket/common/library/reader/yc;Lcom/mobipocket/common/library/reader/qc;)V
+Lcom/mobipocket/common/library/reader/qc;
+Hd
+KmA
+JkA
+LkA
+Lcom/mobipocket/common/library/reader/h;
+xKA
+KJA
+DKA
+ALA
+NmA
+zJA
+RKA
+SlA
+pS
+Lcom/mobipocket/common/library/reader/k;
+PLA
+(Lcom/mobipocket/common/library/reader/kb;)Z
+Lcom/mobipocket/common/library/reader/kb;
+()[Lcom/mobipocket/common/library/reader/kb;
+[Lcom/mobipocket/common/library/reader/kb;
+omA
+cJA
+fLA
+fO
+(Lcom/mobipocket/common/library/reader/yc;)V
+com/mobipocket/common/library/reader/wc
+jb
+ut
+akA
+(Lcom/mobipocket/common/library/reader/pc;)V
+OKA
+(Lcom/mobipocket/common/library/reader/fc;)V
+FKA
+kHA
+(Lcom/mobipocket/common/library/reader/yc;Z)Z
+slA
+()Lcom/mobipocket/common/library/reader/h;
+TKA
+(Lcom/mobipocket/common/library/reader/h;)V
+dLA
+MbA
+Vd
+RJA
+(Lcom/mobipocket/common/library/reader/yc;)Lcom/mobipocket/common/library/historizer/d;
+iA
+AlA
+(Lcom/mobipocket/common/library/reader/yc;I)I
+t
+Lcom/mobipocket/common/library/reader/qd;
+U
+feA
+uEA
+()Lcom/amazon/a/b/v;
+tJA
+(Lcom/mobipocket/common/library/reader/yc;)Lcom/mobipocket/common/parser/styles/h;
+ulA
+(Lcom/mobipocket/common/library/reader/yc;)I
+GmA
+n
+Lcom/mobipocket/common/library/reader/b/o;
+oKA
+KA
+Lcom/mobipocket/common/library/reader/nc;
+nKA
+(Lcom/mobipocket/common/library/reader/uc;Z)V
+cbA
+[Lcom/mobipocket/common/library/reader/ld;
+wIA
+(Lcom/mobipocket/common/library/reader/k;)V
+W
+Lcom/mobipocket/common/library/reader/xb;
+DhA
+(Lcom/mobipocket/common/library/reader/yc;Lcom/mobipocket/common/library/reader/k;)Lcom/mobipocket/common/library/reader/k;
+BHA
+(Lcom/mobipocket/common/library/reader/yc;)Lcom/mobipocket/common/library/reader/k;
+bDA
+(Lcom/mobipocket/common/parser/y;II[B)V
+Qz
+(Lcom/mobipocket/common/parser/y;I)[B
+UKA
+(Lcom/mobipocket/common/library/reader/yc;)Lcom/mobipocket/common/parser/u;
+cmA
+rhA
+()Lcom/mobipocket/common/parser/y;
+phA
+BiA
+RjA
+(Lcom/mobipocket/common/library/reader/yc;)Lcom/amazon/a/d/h;
+HKA
+(Lcom/mobipocket/common/library/reader/fc;)Z
+QJA
+(Lcom/mobipocket/common/library/reader/uc;)V
+OmA
+(Lcom/mobipocket/common/library/reader/uc;ILcom/mobipocket/common/parser/y;IZ)V
+BcA
+hBA
+aCA
+LiA
+qkA
+(Lcom/mobipocket/common/library/reader/yc;)Lcom/mobipocket/common/parser/r;
+ddA
+tmA
+WJA
+mA
+Lcom/mobipocket/common/library/reader/pc;
+GlA
+BA
+Lcom/mobipocket/common/library/reader/fc;
+tcA
+sHA
+S
+rkA
+(Lcom/mobipocket/common/library/reader/uc;Lcom/mobipocket/common/library/reader/kb;)Z
+dU
+(Lcom/mobipocket/common/library/reader/vb;)V
+sjA
+()Lcom/mobipocket/common/library/reader/vb;
+QiA
+(Lcom/mobipocket/common/library/reader/yc;)Lcom/mobipocket/common/library/reader/e;
+hIA
+ZKA
+(Lcom/mobipocket/common/library/reader/yc;)Ljava/util/Vector;
+gmA
+pLA
+FkA
+(Lcom/mobipocket/common/library/reader/uc;)Z
+VJA
+WKA
+fA
+Lcom/mobipocket/common/library/reader/uc;
+(Lcom/mobipocket/common/library/reader/wc;Lcom/mobipocket/common/library/reader/qc;)V
+com/amazon/a/d/h
+com/mobipocket/common/library/historizer/d
+com/mobipocket/common/library/reader/b/o
+com/amazon/a/b/v
+com/mobipocket/common/parser/styles/h
+com/mobipocket/common/library/reader/nc
+com/mobipocket/common/library/reader/xb
+com/mobipocket/common/parser/u
+com/mobipocket/common/parser/y
+com/mobipocket/common/parser/r
+com/mobipocket/common/library/reader/pc
+com/mobipocket/common/library/reader/fc
+com/mobipocket/common/b/d
+com/mobipocket/common/library/reader/k
+com/mobipocket/common/library/reader/e
+com/mobipocket/common/library/reader/uc
+com/mobipocket/common/library/reader/yc
+com/mobipocket/common/library/reader/qc
+com/mobipocket/common/library/reader/kb
+com/mobipocket/common/library/reader/ec

@@ -1,0 +1,17 @@
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+(II)[B
+Exceptions
+length
+()J
+SourceFile
+java/lang/Object
+java/io/IOException
+vPb
+a
+Lcom/amazon/ebook/framework/impl/ws/a/b/h;
+com/amazon/ebook/framework/impl/ws/a/b/h
+esc

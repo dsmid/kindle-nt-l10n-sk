@@ -1,0 +1,16 @@
+I
+<init>
+(I)V
+Code
+LineNumberTable
+LocalVariableTable
+()I
+SourceFile
+java/lang/Object
+()V
+f
+xlb
+a
+Lcom/amazon/ebook/pl/service/event/wb;
+com/amazon/ebook/pl/service/event/wb
+iyb

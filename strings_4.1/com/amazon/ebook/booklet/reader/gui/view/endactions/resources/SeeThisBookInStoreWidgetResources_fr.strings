@@ -1,0 +1,26 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/endactions/resources/SeeThisBookInStoreWidgetResources_fr;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+button.text
+Voir ce livre dans la boutique Kindle
+font.style
+java/lang/Integer
+steps.away.from.current.font.size
+ref.tag.feature.id
+bn_v
+com/amazon/ebook/booklet/reader/gui/view/endactions/resources/SeeThisBookInStoreWidgetResources_fr
+java/util/ListResourceBundle
+(I)V
+f
+a
+pue

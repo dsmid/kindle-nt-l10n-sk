@@ -1,0 +1,17 @@
+getName
+getSize
+()I
+()Ljava/util/Iterator;
+()Ljava/util/List;
+SourceFile
+java/lang/Object
+RJ
+Gm
+(Lcom/amazon/ebook/framework/kos/content/p;)Z
+Hk
+Tk
+()Lcom/amazon/ebook/util/text/a;
+com/amazon/ebook/framework/kos/content/b
+bf
+com/amazon/ebook/framework/kos/content/p
+LocalVariableTable

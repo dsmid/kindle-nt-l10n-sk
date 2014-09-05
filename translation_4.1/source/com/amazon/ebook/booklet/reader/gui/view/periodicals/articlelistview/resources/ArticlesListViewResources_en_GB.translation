@@ -1,0 +1,12 @@
+{0} {0,choice,0#Articles|1#Article|1<Articles}	
+Close Articles List	
+View Sections & Articles	
+Page {0} of {1}	
+{0,choice,0#Article|0<Articles} {1} {0,choice,0#|0<- {2} }of {3}	
+Item {0} of {1}	
+Showing {0,choice,0#Article|0<Articles} {1} {0,choice,0#|0<to {2} }of {3}	
+Showing Page {0} of {1}	
+Articles List	
+Articles List • {0}	
+{0}{1,choice,0#|0<. {2}}{3,choice,0#|0<. Summary of the article, {4}}	
+ in {0}	

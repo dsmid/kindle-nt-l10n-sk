@@ -1,0 +1,37 @@
+Ljava/lang/String;
+Ljava/net/URI;
+<init>
+(Ljava/lang/String;Ljava/lang/String;Ljava/net/URI;)V
+Code
+LineNumberTable
+LocalVariableTable
+getCdeKey
+()Ljava/lang/String;
+getTitle
+()Ljava/net/URI;
+toString
+equals
+(Ljava/lang/Object;)Z
+Ljava/lang/Object;
+hashCode
+()I
+SourceFile
+java/lang/StringBuffer
+key: 
+, title: 
+, uri: 
+java/lang/Object
+()V
+java/net/URI
+getPath
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java/lang/String
+f
+K
+l
+a
+Lcom/amazon/ebook/booklet/reader/c/p;
+Hcb
+com/amazon/ebook/booklet/reader/c/p
+uxd

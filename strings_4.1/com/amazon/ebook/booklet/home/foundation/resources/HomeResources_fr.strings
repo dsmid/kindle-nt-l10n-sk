@@ -1,0 +1,34 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/HomeResources_fr;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+home.menu.personalization.label
+Mon Kindle
+home.dictionaries.collection.name
+Dictionnaires
+download.wan.off
+La connexion sans fil est désactivée. Activez-la et réessayez.
+exceeded.licenses.alert
+Cet élément ne peut pas être téléchargé actuellement car toutes ses licences sont en cours d’utilisation sur vos autres appareils.~~~~Pour le télécharger sur cet appareil, vous pouvez le supprimer de l’un de vos appareils ou acheter un autre exemplaire dans la boutique Kindle.~~~~
+home.viewdownloaditem.menuitem.label
+View Downloading Items
+home.view.sound
+Home
+home.delete.button.sound
+delete
+home.remove.button.sound
+remove from device
+com/amazon/ebook/booklet/home/foundation/resources/HomeResources_fr
+java/util/ListResourceBundle
+f
+a
+zpg

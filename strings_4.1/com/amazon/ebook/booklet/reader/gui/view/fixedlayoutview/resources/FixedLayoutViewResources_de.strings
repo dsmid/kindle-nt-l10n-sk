@@ -1,0 +1,38 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/fixedlayoutview/resources/FixedLayoutViewResources_de;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+footer.y.offset
+java/lang/Integer
+color.background
+hint.fixed.layout.comic.imageview
+Drücken Sie {0} , um zur Kindle Panel View zu wechseln.~~ Drücken Sie {1} , um die Panel View zu verlassen.
+java/lang/String
+5way_icon.gif
+back_icon.gif
+hint.fixed.layout.comic.panelview
+Drücken Sie {0} , um die Panel View zu verlassen.~~ Drücken Sie {1} , um zur Kindle Panel View zurückzukehren.
+hint.fixed.layout.children.imageview
+Drücken Sie {0} , um Kindle-Text-Pop-up zu öffnen.~~Drücken Sie {1} , um Text-Pop-up zu verlassen.
+hint.fixed.layout.children.panelview
+Drücken Sie {0} , um Text-Pop-up zu verlassen.~~Drücken Sie {1} , um zu Kindle-Text-Pop-up zurückzukehren.
+com/amazon/ebook/booklet/reader/gui/view/fixedlayoutview/resources/FixedLayoutViewResources_de
+java/util/ListResourceBundle
+(I)V
+Ljava/awt/Color;
+(Ljava/lang/String;[Ljava/lang/String;I)V
+f
+a
+kte
+C
+com/amazon/ebook/framework/gui/c
+com/amazon/ebook/booklet/reader/gui/infobox/y

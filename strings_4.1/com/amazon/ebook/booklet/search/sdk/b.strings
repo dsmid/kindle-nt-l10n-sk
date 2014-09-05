@@ -1,0 +1,16 @@
+(I)V
+getPosition
+()Ljava/lang/Object;
+getText
+()Ljava/lang/String;
+()[I
+SourceFile
+Snippet
+InnerClasses
+java/lang/Object
+WR
+SP
+com/amazon/ebook/booklet/search/sdk/b
+jk
+com/amazon/ebook/booklet/search/sdk/cb
+LocalVariableTable

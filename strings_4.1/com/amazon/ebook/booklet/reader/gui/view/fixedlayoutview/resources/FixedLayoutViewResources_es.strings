@@ -1,0 +1,38 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/fixedlayoutview/resources/FixedLayoutViewResources_es;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+footer.y.offset
+java/lang/Integer
+color.background
+hint.fixed.layout.comic.imageview
+Pulsa {0} para acceder a la vista de panel del Kindle.~~ Pulsa {1} para salir de la vista de panel.
+java/lang/String
+5way_icon.gif
+back_icon.gif
+hint.fixed.layout.comic.panelview
+Pulsa {0} para salir de la vista de panel.~~ Pulsa {1} para regresar a la vista de panel de Kindle.
+hint.fixed.layout.children.imageview
+Pulsa {0} para activar Texto emergente de Kindle.~~ Pulsa {1} para desactivar Texto emergente.
+hint.fixed.layout.children.panelview
+Pulsa {0} para desactivar Texto emergente.~~ Pulsa {1} para volver a Texto emergente.
+com/amazon/ebook/booklet/reader/gui/view/fixedlayoutview/resources/FixedLayoutViewResources_es
+java/util/ListResourceBundle
+(I)V
+Ljava/awt/Color;
+(Ljava/lang/String;[Ljava/lang/String;I)V
+f
+a
+iqe
+C
+com/amazon/ebook/framework/gui/c
+com/amazon/ebook/booklet/reader/gui/infobox/y

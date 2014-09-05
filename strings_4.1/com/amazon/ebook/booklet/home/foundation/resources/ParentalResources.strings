@@ -1,0 +1,59 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ParentalResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+header.text
+Parental Controls
+desc.body.text
+When Parental Controls are enabled, Deregistration and Reset to Factory Defaults are disabled.~~~~When Kindle Store is locked, you can continue buying books on your computer and sending them to your Kindle.
+desc.cursor.text
+
+cursor.set
+set
+body.text
+Specify restrictions on your Kindle.
+body.text.disabled
+This Kindle is a managed device. Parental Controls are blocked.
+widget.browser.header
+Web Browser
+widget.store.header
+Kindle Store
+widget.archive.header
+Archived Items
+widget.browser.body
+Access to Experimental Web Browser
+widget.store.body
+Access to Kindle Store
+widget.archive.body
+Access to Archived Items
+widget.cursor.on
+turn on
+widget.cursor.off
+turn off
+password.body.text
+Set Parental Controls Password
+submit.body.text
+Select save to change Parental Controls and restart your Kindle
+submit.header.text
+Parental Controls have changed:
+submit.button.submit.text
+save
+settings.widget.max.num.desc.lines
+java/lang/Integer
+parental.pwd.overlay.height
+parental.widget.spacing
+com/amazon/ebook/booklet/home/foundation/resources/ParentalResources
+java/util/ListResourceBundle
+(I)V
+f
+a
+qfg

@@ -1,0 +1,17 @@
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+getRowHeight
+()I
+SourceFile
+getHeight
+a
+Lcom/amazon/ebook/booklet/home/views/e/v;
+(Lcom/amazon/ebook/booklet/home/v;Lcom/amazon/ebook/booklet/home/foundation/gui/d;)V
+Lcom/amazon/ebook/booklet/home/v;
+Lcom/amazon/ebook/booklet/home/foundation/gui/d;
+com/amazon/ebook/booklet/home/views/e/v
+cgg
+com/amazon/ebook/booklet/home/foundation/gui/v
+com/amazon/ebook/booklet/home/foundation/gui/a/c

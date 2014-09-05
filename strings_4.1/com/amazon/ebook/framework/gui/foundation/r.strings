@@ -1,0 +1,9 @@
+getInsets
+()Ljava/awt/Insets;
+(Ljava/awt/Graphics;Ljava/awt/Rectangle;)V
+SourceFile
+java/lang/Object
+rJ
+com/amazon/ebook/framework/gui/foundation/r
+ep
+LocalVariableTable

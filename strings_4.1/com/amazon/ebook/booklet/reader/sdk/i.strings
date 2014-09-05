@@ -1,0 +1,13 @@
+close
+()V
+moveCursor
+(I)Z
+(Ljava/lang/String;)Z
+SourceFile
+java/lang/Object
+qT
+()Lcom/amazon/ebook/booklet/reader/sdk/m;
+rt
+com/amazon/ebook/booklet/reader/sdk/i
+vx
+LocalVariableTable

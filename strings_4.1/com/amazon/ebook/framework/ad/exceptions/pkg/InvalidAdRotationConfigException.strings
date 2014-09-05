@@ -1,0 +1,19 @@
+<init>
+(Ljava/lang/String;)V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/ad/exceptions/pkg/InvalidAdRotationConfigException;
+Ljava/lang/String;
+SourceFile
+java/lang/StringBuffer
+Ad Type Rotation Config interpretation failed: 
+com/amazon/ebook/framework/ad/exceptions/pkg/InvalidAdRotationConfigException
+com/amazon/ebook/framework/ad/exceptions/pkg/AdRotationException
+()V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+a
+aid

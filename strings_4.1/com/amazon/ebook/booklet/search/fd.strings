@@ -1,0 +1,44 @@
+<init>
+(Ljava/lang/String;)V
+Code
+LineNumberTable
+LocalVariableTable
+
+InnerClasses
+Ljava/lang/String;
+Ljava/lang/Runtime;
+SourceFile
+java/lang/StringBuffer
+1: total memory: 
+~~free memory: 
+~~
+2: total memory: 
+PrivateCommand
+java/lang/Runtime
+getRuntime
+()Ljava/lang/Runtime;
+()V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+totalMemory
+()J
+(J)Ljava/lang/StringBuffer;
+freeMemory
+toString
+()Ljava/lang/String;
+Messages
+I
+(I[Ljava/lang/String;Ljava/lang/String;)V
+gc
+Enb
+a
+Lcom/amazon/ebook/booklet/search/fd;
+com/amazon/ebook/booklet/search/fd
+exd
+sUB
+ppB
+E
+com/amazon/ebook/booklet/search/yi
+com/amazon/ebook/booklet/search/sdk/bb
+com/amazon/ebook/booklet/search/sdk/xb
+com/amazon/ebook/booklet/search/gd

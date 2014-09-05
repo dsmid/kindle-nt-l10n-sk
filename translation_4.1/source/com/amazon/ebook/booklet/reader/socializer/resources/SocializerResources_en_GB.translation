@@ -1,0 +1,35 @@
+Message shared	
+Social Networks Not Registered	
+You may not be registered with any social networks. Selecting 'register' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your registration is complete, select 'Continue Reading' to return to this item. 	
+Your Kindle is not registered with any social networks. Selecting 'register' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your registration is complete, select 'Continue reading' to return to this item.	
+Invalid Social Networks	
+One or more of the social networks registered to your Kindle are not configured properly. Selecting 'manage accounts' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your changes are complete, select 'Continue reading' to return to this item.	
+Sharing unavailable. Try later	
+The sharing service is currently unavailable. Please try again later.	
+Sharing Not Supported	
+This content does not support sharing.	
+Clipping Limit Reached	
+Unable to share. You have reached the clipping limit for this item.	
+Password Protected PDF File	
+Unable to share. This is a password protected PDF file.	
+Unable to share. You have reached the clipping limit for this item set by the publisher.	
+Unable to share. You have reached the clipping limit for this item set by the publisher, {0}.	
+Communication error. Try later	
+The sharing service encountered a communication error. Please try again later.	
+Sharing Failed	
+The sharing service encountered an unrecoverable error. Sharing aborted.	
+Empty Message	
+You cannot share a blank message or a message containing only whitespace.	
+Wireless unavailable. Try later	
+Wireless connectivity is currently unavailable. Please try again later.	
+{0,choice,1#Your message is too long to share. Please remove one character.|2#Your message is too long to share. Please remove {0} characters.}	
+Continue reading	
+register	
+manage accounts	
+cancel	
+close	
+share	
+Enter Your Message	
+A link to the book will be appended to your message.	
+A link to your highlight will be appended to your message.	
+{0,choice,-2#{1} characters over |-1#{1} character over | 0#{1} characters left | 1#{1} character left | 2#{1} characters left}	

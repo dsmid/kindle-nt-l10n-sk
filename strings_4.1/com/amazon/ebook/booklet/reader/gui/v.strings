@@ -1,0 +1,11 @@
+SourceFile
+java/lang/Object
+TP
+()Lcom/amazon/ebook/booklet/reader/gui/menu/h;
+dP
+()Lcom/amazon/ebook/booklet/reader/gui/view/pagefooter/g;
+qR
+(Ljava/awt/Rectangle;Lcom/amazon/ebook/booklet/reader/sdk/p;)Lcom/amazon/ebook/booklet/reader/gui/view/pageheader/c;
+com/amazon/ebook/booklet/reader/gui/v
+ix
+LocalVariableTable

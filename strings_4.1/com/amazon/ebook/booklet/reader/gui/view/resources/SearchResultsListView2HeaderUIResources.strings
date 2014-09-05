@@ -1,0 +1,25 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/resources/SearchResultsListView2HeaderUIResources;
+getContents
+()[[Ljava/lang/Object;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+header.title
+Search Results: Showing All {0}
+color.foreground
+color.background
+com/amazon/ebook/booklet/reader/gui/view/resources/SearchResultsListView2HeaderUIResources
+java/util/ListResourceBundle
+Ljava/awt/Color;
+f
+a
+nhe
+C
+I
+com/amazon/ebook/framework/gui/c

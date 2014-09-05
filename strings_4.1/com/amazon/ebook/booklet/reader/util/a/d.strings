@@ -1,0 +1,14 @@
+getId
+()Ljava/lang/Object;
+getValue
+CacheableValue
+InnerClasses
+SourceFile
+Cacheable
+java/lang/Object
+()Lcom/amazon/ebook/booklet/reader/util/a/v;
+com/amazon/ebook/booklet/reader/util/a/d
+an
+com/amazon/ebook/booklet/reader/util/a/p
+com/amazon/ebook/booklet/reader/util/a/v
+LocalVariableTable

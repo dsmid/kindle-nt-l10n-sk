@@ -1,0 +1,494 @@
+TemperatureRangeAndPageNum
+InnerClasses
+TemperatureMonitor
+Z
+Ljava/util/Stack;
+Ljava/awt/Container;
+Distributor
+USE_GL16
+I
+TEMPERATURE_FILE_NAME
+Ljava/lang/String;
+ConstantValue
+NUM_TEMPERATURE_RANGES
+MIN_TEMPERATURE
+MAX_TEMPERATURE
+PAGES
+J
+init
+Code
+LineNumberTable
+LocalVariableTable
+<init>
+(Ljava/awt/Container;)V
+getRootContainer
+()Ljava/awt/Container;
+()Ljava/awt/Graphics;
+Exceptions
+add
+(Lcom/amazon/ebook/framework/gui/foundation/KWindow;IIII)V
+Lcom/amazon/ebook/framework/gui/foundation/KWindow;
+x
+y
+width
+height
+(Lcom/amazon/ebook/framework/gui/foundation/KWindow;)V
+remove
+(Lcom/amazon/ebook/framework/gui/foundation/KWindow;)Z
+(Lcom/amazon/ebook/framework/gui/foundation/KWindow;)I
+c
+Ljava/awt/Component;
+i
+[Ljava/awt/Component;
+()V
+repaint
+(Ljava/awt/Rectangle;)V
+Ljava/awt/Rectangle;
+g
+Ljava/awt/Graphics;
+(I)V
+(Ljava/awt/Container;ZZ)V
+(Ljava/awt/Container;Z)V
+(Z)V
+()Z
+[Ljava/awt/Rectangle;
+Ljava/lang/StringBuffer;
+(Ljava/awt/Container;Ljava/awt/Graphics;)Ljava/awt/Rectangle;
+j
+dispose
+Ljava/util/List;
+[Lcom/amazon/ebook/framework/gui/foundation/KWindow;
+(Ljava/awt/Component;)Ljava/lang/String;
+b
+DriverMode
+clearScreen
+(Lcom/amazon/ebook/framework/gui/overlays/Overlay;Z)V
+Lcom/amazon/ebook/framework/gui/overlays/Overlay;
+keyboardRequested
+keyboardStopping
+temperature
+access$000
+Synthetic
+access$100
+(I)I
+<clinit>
+SourceFile
+java/util/Stack
+EmulatorWindow
+Not running under Emulator 
+
+FrameBufferManagerImpl did not initialize.
+Hardware does not support GL16
+java/lang/String
+Unable to get temperature file path
+com/amazon/ebook/framework/gui/GraphicsException
+rootWindow is null.  The Window Manager was never initialized.
+java/awt/Color
+java/lang/StringBuffer
+while adding 
+com/amazon/ebook/framework/gui/foundation/KWindow
+com/amazon/ebook/framework/impl/gui/ScreenImpl
+TimerTask already exists, cancel it
+compositor(KContainerAdapter) 
+compositor passed in a 
+exiting from compositor()
+compositor() Getting graphic from 
+compositor() Clip rect for 
+ is 
+compositor()  rootWindow clipBound is NULL 
+compositor()  rootWindow clipBound is 
+compositor bottomMostKca=
+, flash=
+compositor() the window to be refreshed is not visible.  Not composing 
+compositor() computed clipBound is 
+compositor() Menu is up, adding SMB rect to clipBound 
+compositor() 
+ #
+ 
+ <- Not processing, not a KCA
+ <- processing... 
+compositor() This window is coming up for the first time.  Any user rects will be ignored.
+compositor() Window is visible and intersects clip. 
+compositor() Composing from backing stoe...
+compositor() --- Image clip is 
+CopyBufferedIimage
+compositor() ---TOTAL RUN TIME ---, NO UPDATE to eInk
+java/awt/Rectangle
+compositor() calling FrameBuffer.nonBufferedAreaUpdate(Rect) with union of user's updateRect(s) 
+compositor() calling FrameBuffer.areaUpdate(Rect) with union of user's updateRect(s) 
+compositor() calling FrameBuffer.update() (this will flash)
+compositor() calling FrameBuffer.partialUpdate() (this will not flash)
+compositor() calling FrameBuffer.nonBufferedAreaUpdate(Rect) 
+ flash = 
+compositor() calling FrameBuffer.areaUpdate(Rect) 
+compositor() ---TOTAL RUN TIME ---
+Graphics
+Container
+compositor() generating area shape based on rect list. 
+hideAllAndPush() called
+java/util/ArrayList
+hideAllAndPush() hiding 
+hideAllAndPush() exiting, stack size is 
+ rootWindow clip is 
+popAllAndShow() called 
+popAllAndShow() called on empty stack.
+popAllAndShow() showing 
+popAllAndShow() exiting, stack size is 
+ (K
+ (C
+ V 
+ I 
+ D= 
+.
+endFullPageUpdate resetting GL16 count as we are using GC16 update
+forceFullPageUpdate resetting GL16 count as we are using GC16 update
+com/amazon/ebook/framework/impl/gui/MainUIContainer
+java/awt/Container
+setFullScreenMode = 
+com/amazon/ebook/framework/BookletException
+Resetting the open counter
+Updating open/closed overlay counter
+Updating open/closed keyboard counter
+Updating open/closed menu counter
+PAPYRUS_TEMPERATURE_READ_INTERVAL
+Updated temperature and pages
+WindowManagerImpl
+rootWindowNotSet
+WindowAlreadyAdded
+NullParameter
+NoWindowsInList
+Fatal
+TemperatureRangeAndPages
+Start temperature
+End temperature
+Pages
+NewTemperatureAndPages
+pages
+TimerNotCanceled
+UnsupportedHardwareForGL16
+ModifyingOpenCounter
+openCounter
+InvalidOpenCounter
+PageTransitionBehavior
+Compositor
+java/lang/System
+getProperty
+(Ljava/lang/String;)Ljava/lang/String;
+(Ljava/lang/String;)V
+getInstance
+com/amazon/ebook/framework/impl/Framework
+(Ljava/lang/String;Z)Z
+java/lang/Boolean
+toString
+(Z)Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getGraphics
+setBounds
+(IIII)V
+setLayout
+(Ljava/awt/LayoutManager;)V
+setBackground
+(Ljava/awt/Color;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java/lang/Object
+getClass
+()Ljava/lang/Class;
+java/lang/Class
+()Ljava/lang/String;
+(Ljava/awt/Component;I)Ljava/awt/Component;
+isVisible
+getBounds
+()Ljava/awt/Rectangle;
+(Ljava/awt/Component;)V
+getComponents
+()[Ljava/awt/Component;
+()I
+java/awt/Component
+java/awt/Graphics
+setClip
+(Ljava/awt/Shape;)V
+(Ljava/lang/Object;)V
+isEmpty
+cancel
+getUIManager
+valueOf
+(Z)Ljava/lang/Boolean;
+create
+getClipBounds
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+getName
+(Z)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+intersects
+(Ljava/awt/Rectangle;)Z
+(I)Z
+(Ljava/lang/String;[Ljava/lang/String;)V
+()Ljava/awt/Image;
+getX
+getY
+drawImage
+(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+()[Ljava/awt/Rectangle;
+clone
+()Ljava/lang/Object;
+(Ljava/awt/Rectangle;Z)V
+getHeight
+intersection
+(Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+java/util/List
+(Ljava/lang/Object;)Z
+toArray
+([Ljava/lang/Object;)[Ljava/lang/Object;
+push
+(Ljava/lang/Object;)Ljava/lang/Object;
+size
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+pop
+length
+lastIndexOf
+(Ljava/lang/String;)I
+substring
+(II)Ljava/lang/String;
+java/lang/Integer
+(I)Ljava/lang/String;
+(Ljava/lang/String;I)I
+(Ljava/lang/String;J)J
+f
+K
+l
+[Lcom/amazon/ebook/framework/impl/b/h;
+L
+m
+a
+F
+Lcom/amazon/ebook/util/d/c;
+e
+Lcom/amazon/ebook/util/d/v;
+k
+h
+D
+M
+A
+C
+Lcom/amazon/ebook/util/event/d;
+B
+Lcom/amazon/ebook/util/event/m;
+d
+Lcom/amazon/ebook/framework/impl/b/y;
+G
+E
+H
+Lcom/amazon/ebook/util/log/p;
+t
+n
+Lcom/amazon/ebook/util/log/w;
+q
+S
+W
+V
+U
+T
+R
+w
+o
+z
+Lcom/amazon/ebook/util/log/b;
+heb
+()Lcom/amazon/ebook/util/log/b;
+utb
+wtb
+(Lcom/amazon/ebook/framework/impl/b/c;I)V
+Lcom/amazon/ebook/framework/impl/b/c;
+()Lcom/amazon/ebook/framework/gui/foundation/ab;
+Ysb
+Htb
+Lcom/amazon/ebook/pl/config/h;
+oSb
+oH
+Xh
+Yf
+Otb
+qsb
+Dub
+ETb
+(Lcom/amazon/ebook/framework/gui/foundation/kb;)V
+Lcom/amazon/ebook/framework/gui/foundation/kb;
+hUb
+ltb
+Xub
+(Lcom/amazon/ebook/framework/h;Z)V
+Lcom/amazon/ebook/framework/h;
+Nsb
+dsb
+OTb
+STb
+usb
+ctb
+ysb
+pTb
+ZSb
+cUb
+bsb
+HUb
+GSb
+VSb
+xSb
+Lcom/amazon/ebook/util/kgt/h;
+esb
+vsb
+kub
+RG
+Zsb
+ksb
+NUb
+pUb
+(Lcom/amazon/ebook/framework/gui/foundation/e;)V
+Lcom/amazon/ebook/framework/gui/foundation/e;
+uTb
+rQA
+dub
+zTb
+Rub
+vTb
+Vsb
+Qub
+tsb
+Utb
+Aub
+Lsb
+Ssb
+eTb
+(Lcom/amazon/ebook/pl/service/f;)V
+Lcom/amazon/ebook/pl/service/f;
+nSb
+com/amazon/ebook/framework/impl/b/c
+sad
+com/amazon/ebook/framework/gui/event/p
+com/amazon/ebook/framework/gui/event/b
+com/amazon/ebook/framework/gui/event/o
+com/amazon/ebook/framework/gui/event/y
+oC
+wC
+()Lcom/amazon/ebook/pl/service/j;
+(Ljava/lang/String;Lcom/amazon/ebook/util/log/b;)V
+kIb
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/b;
+KSb
+jSb
+nMA
+(Lcom/amazon/ebook/framework/impl/b/c;III)V
+TOA
+kd
+()Lcom/amazon/ebook/pl/service/m;
+cB
+()Lcom/amazon/ebook/pl/service/f;
+YK
+()Lcom/amazon/ebook/framework/h;
+cIb
+OQA
+Qwb
+Jvb
+iwb
+Zxb
+IqA
+KvA
+trA
+wRA
+YC
+NB
+kB
+eI
+oVb
+()Lcom/amazon/ebook/util/kgt/h;
+Txb
+()Lcom/amazon/ebook/util/kgt/d;
+Qj
+PC
+nWb
+CPA
+Qhb
+urA
+Lib
+zhb
+bqA
+li
+QrA
+BHb
+(ILcom/amazon/ebook/util/log/w;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+oHb
+rkB
+(Lcom/amazon/ebook/framework/gui/event/b;)V
+mWb
+(Lcom/amazon/ebook/framework/gui/event/o;)V
+lwb
+(Lcom/amazon/ebook/framework/gui/event/y;)V
+uWb
+(Lcom/amazon/ebook/framework/gui/event/p;)V
+zJB
+()Lcom/amazon/ebook/framework/gui/foundation/dd;
+Mwb
+zVb
+Vxb
+()Lcom/amazon/ebook/framework/gui/v;
+rjb
+(Lcom/amazon/ebook/util/d/c;JJ)V
+(Lcom/amazon/ebook/framework/impl/b/c;Ljava/lang/String;)V
+VHb
+(Lcom/amazon/ebook/util/log/w;[Ljava/lang/String;Ljava/lang/String;)V
+SpA
+BqA
+uHb
+(Lcom/amazon/ebook/util/event/d;)V
+XGb
+PIb
+Gvb
+AVb
+()Lcom/amazon/ebook/framework/gui/foundation/l;
+VPA
+FPA
+()Lcom/amazon/ebook/util/d/v;
+rGb
+(Lcom/amazon/ebook/util/log/w;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+IOA
+qb
+()Lcom/amazon/ebook/pl/config/h;
+gJ
+()Lcom/amazon/ebook/pl/h;
+wDB
+()Lcom/amazon/ebook/framework/impl/booklet/h;
+Fhb
+QfB
+()Lcom/amazon/ebook/util/file/p;
+rhb
+qjb
+()Lcom/amazon/ebook/framework/impl/b/y;
+(Lcom/amazon/ebook/framework/impl/b/c;)V
+bzA
+Lcom/amazon/ebook/framework/gui/foundation/ab;
+com/amazon/ebook/pl/service/j
+com/amazon/ebook/pl/service/m
+com/amazon/ebook/pl/service/f
+com/amazon/ebook/framework/impl/o
+com/amazon/ebook/util/kgt/h
+com/amazon/ebook/util/kgt/d
+com/amazon/ebook/util/log/u
+com/amazon/ebook/framework/gui/foundation/dd
+com/amazon/ebook/util/d/c
+com/amazon/ebook/framework/gui/v
+com/amazon/ebook/util/d/v
+com/amazon/ebook/pl/config/h
+com/amazon/ebook/pl/h
+com/amazon/ebook/framework/impl/booklet/h
+com/amazon/ebook/util/file/p
+com/amazon/ebook/framework/impl/b/y
+com/amazon/ebook/util/log/b
+com/amazon/ebook/framework/gui/foundation/kb
+com/amazon/ebook/util/event/d
+com/amazon/ebook/framework/gui/foundation/ab
+com/amazon/ebook/util/log/p
+com/amazon/ebook/util/log/w
+com/amazon/ebook/framework/impl/b/d
+com/amazon/ebook/framework/impl/b/v
+com/amazon/ebook/util/event/m
+com/amazon/ebook/framework/impl/b/h

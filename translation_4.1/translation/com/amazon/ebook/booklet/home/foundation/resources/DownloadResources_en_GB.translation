@@ -1,0 +1,10 @@
+Downloading Items	
+close	
+download complete	
+pending - {0}%	
+downloading - {0}%	
+wireless connection required - {0}%	
+insufficient space - {0}%	
+Wi-Fi required - {0}%	
+0#Showing {0,number,integer} Items|1#Showing {0,number,integer} Item|2#Showing {0,number,integer} Items	
+error	

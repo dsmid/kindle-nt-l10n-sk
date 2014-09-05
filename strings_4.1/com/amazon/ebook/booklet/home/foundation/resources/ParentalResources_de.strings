@@ -1,0 +1,59 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ParentalResources_de;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+header.text
+Kindersicherung
+desc.body.text
+Wenn die Kindersicherung aktiviert ist, sind die Funktionen Abmeldung und Auf Werkseinstellungen zurücksetzen deaktiviert.~~~~Wenn der Kindle-Shop gesperrt ist, können Sie weiterhin Bücher auf Ihrem Computer kaufen und sie an Ihren Kindle senden.
+desc.cursor.text
+
+cursor.set
+Einstellen
+body.text
+Definieren Sie die Einschränkungen auf Ihrem Kindle.
+body.text.disabled
+Dieser Kindle ist ein verwaltetes Gerät. Kindersicherung ist gesperrt.
+widget.browser.header
+Webbrowser
+widget.store.header
+Kindle-Shop
+widget.archive.header
+Archiv
+widget.browser.body
+Zugang zum Beta-Webbrowser
+widget.store.body
+Zugang zum Kindle-Shop
+widget.archive.body
+Zugang zum Archiv
+widget.cursor.on
+Einschalten
+widget.cursor.off
+Ausschalten
+password.body.text
+Passwort für die Kindersicherung setzen
+submit.body.text
+Wählen Sie Speichern, um die Kindersicherung zu ändern und Ihren Kindle neu zu starten
+submit.header.text
+Kindersicherung wurde geändert:
+submit.button.submit.text
+Speichern
+settings.widget.max.num.desc.lines
+java/lang/Integer
+parental.pwd.overlay.height
+parental.widget.spacing
+com/amazon/ebook/booklet/home/foundation/resources/ParentalResources_de
+java/util/ListResourceBundle
+(I)V
+f
+a
+aag

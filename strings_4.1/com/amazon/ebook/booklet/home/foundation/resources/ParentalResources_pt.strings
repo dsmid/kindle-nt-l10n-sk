@@ -1,0 +1,59 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ParentalResources_pt;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+header.text
+Controles dos pais
+desc.body.text
+Quando os Controles de Pais estão ativados, as opções de Cancelamento de registro e Redefinição para valores de fábrica são desativadas.~~~~Quando a Loja Kindle é bloqueada, é possível continuar a comprar livros em seu computador e enviá-los para seu Kindle.
+desc.cursor.text
+
+cursor.set
+definir
+body.text
+Defina controles no seu Kindle.
+body.text.disabled
+Este Kindle é um dispositivo gerenciado. Os controles de pais estão bloqueados.
+widget.browser.header
+Navegador da web
+widget.store.header
+Loja Kindle
+widget.archive.header
+Itens arquivados
+widget.browser.body
+Acesso ao navegador da Internet Experimental 
+widget.store.body
+Acesso à Loja Kindle
+widget.archive.body
+Acesso a Itens Arquivados
+widget.cursor.on
+ligar
+widget.cursor.off
+desligar
+password.body.text
+Configurar a senha dos controles dos pais
+submit.body.text
+Selecione salvar para alterar os controles de pais e reiniciar seu Kindle
+submit.header.text
+Os controles dos pais foram alterados:
+submit.button.submit.text
+salvar
+settings.widget.max.num.desc.lines
+java/lang/Integer
+parental.pwd.overlay.height
+parental.widget.spacing
+com/amazon/ebook/booklet/home/foundation/resources/ParentalResources_pt
+java/util/ListResourceBundle
+(I)V
+f
+a
+eyf

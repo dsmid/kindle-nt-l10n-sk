@@ -1,0 +1,62 @@
+Synthetic
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+TTSServiceCallBack
+InnerClasses
+()V
+(I)V
+I
+
+SourceFile
+TTSServiceCallBack.onSpeaking - begin.
+TTSServiceCallBack.onSpeaking - end.
+TTSServiceCallBack.onTextAborted - begin.
+TTSServiceCallBack.onTextAborted - end.
+TTSServiceCallBack.onTextCompleted - begin.
+TTSServiceCallBack.onTextCompleted - end.
+TTSServiceCallBack.onBookmark - begin.
+TTSServiceCallBack.onBookmark - end.
+TTSServiceCallBack.onDataLow - begin.
+TTSServiceCallBack.onDataLow - end.
+java/lang/Object
+()Z
+access$300
+(Ljava/lang/String;)V
+java/awt/EventQueue
+invokeLater
+(Ljava/lang/Runnable;)V
+f
+Lcom/amazon/ebook/booklet/reader/plugin/tts/x;
+rZB
+(Lcom/amazon/ebook/booklet/reader/plugin/tts/v;)Lcom/amazon/ebook/booklet/reader/plugin/tts/x;
+a
+Lcom/amazon/ebook/booklet/reader/plugin/tts/v;
+(Lcom/amazon/ebook/booklet/reader/plugin/tts/x;Lcom/amazon/ebook/booklet/reader/plugin/tts/e;)V
+Lcom/amazon/ebook/booklet/reader/plugin/tts/e;
+IH
+iH
+Do
+QI
+sh
+pi
+tj
+ah
+cI
+(Lcom/amazon/ebook/booklet/reader/plugin/tts/x;)V
+com/amazon/ebook/booklet/reader/plugin/tts/v
+mtd
+com/amazon/ebook/framework/service/media/event/c
+(Lcom/amazon/ebook/booklet/reader/plugin/tts/v;)V
+bzA
+()Lcom/amazon/ebook/util/log/b;
+cIb
+com/amazon/ebook/booklet/reader/plugin/tts/x
+com/amazon/ebook/util/log/b
+com/amazon/ebook/booklet/reader/plugin/tts/e
+com/amazon/ebook/booklet/reader/plugin/tts/p
+com/amazon/ebook/booklet/reader/plugin/tts/b
+com/amazon/ebook/booklet/reader/plugin/tts/o
+com/amazon/ebook/booklet/reader/plugin/tts/y
+com/amazon/ebook/booklet/reader/plugin/tts/u

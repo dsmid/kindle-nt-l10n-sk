@@ -1,0 +1,100 @@
+BackgroundRenderingRunnable
+InnerClasses
+Z
+Ljava/util/LinkedList;
+Code
+LineNumberTable
+LocalVariableTable
+<init>
+()Z
+startRenderingPages
+ScreenIdentifierMaker
+I
+Ljava/lang/String;
+checkScreen
+Ljava/lang/InterruptedException;
+Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;
+()V
+access$000
+Synthetic
+<clinit>
+SourceFile
+Entering startRenderingPages {{{
+java/lang/StringBuffer
+screenID count = 
+Background Renderer is still running on a previous job... You should call stop before start
+Exiting startRenderingPages }}}
+java/util/LinkedList
+No new screen IDs for cache
+PDF Background Renderer
+Second check of background thread failed
+Setting up screen ID list of size 
+java/lang/InterruptedException
+checkScreen(): interrupted while trying to join background thread
+BackgroundScreenRenderer
+java/lang/Object
+(Ljava/lang/String;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+add
+(Ljava/lang/Object;)Z
+size
+()I
+start
+contains
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+getMessage
+getInstance
+f
+Lcom/amazon/ebook/booklet/pdfreader/impl/lb;
+K
+Lcom/amazon/ebook/booklet/pdfreader/impl/u;
+l
+L
+Lcom/amazon/ebook/util/a/w;
+m
+Lcom/amazon/ebook/util/log/b;
+lBC
+(Lcom/amazon/ebook/booklet/pdfreader/impl/xb;Lcom/amazon/ebook/util/a/w;)Lcom/amazon/ebook/util/a/w;
+a
+Lcom/amazon/ebook/booklet/pdfreader/impl/xb;
+mCC
+(Lcom/amazon/ebook/booklet/pdfreader/impl/xb;)Lcom/amazon/ebook/booklet/pdfreader/impl/lb;
+lbC
+(Lcom/amazon/ebook/booklet/pdfreader/impl/xb;)Z
+ebC
+(Lcom/amazon/ebook/booklet/pdfreader/impl/xb;)Lcom/amazon/ebook/booklet/pdfreader/impl/u;
+zCC
+(Lcom/amazon/ebook/booklet/pdfreader/impl/xb;)Ljava/util/LinkedList;
+()Lcom/amazon/ebook/util/log/b;
+lcC
+mdC
+(Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;)Lcom/amazon/ebook/booklet/pdfreader/impl/o;
+Lcom/amazon/ebook/booklet/pdfreader/impl/o;
+HbC
+([Lcom/amazon/ebook/booklet/pdfreader/impl/v;)V
+[Lcom/amazon/ebook/booklet/pdfreader/impl/v;
+tcC
+(Lcom/amazon/ebook/booklet/pdfreader/impl/u;Lcom/amazon/ebook/booklet/pdfreader/impl/lb;)V
+DcC
+(Lcom/amazon/ebook/booklet/pdfreader/impl/u;Lcom/amazon/ebook/booklet/pdfreader/impl/lb;)Lcom/amazon/ebook/booklet/pdfreader/impl/xb;
+com/amazon/ebook/booklet/pdfreader/impl/xb
+huf
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/b;
+KA
+KvA
+IlB
+YZc
+iKB
+(Lcom/amazon/ebook/booklet/pdfreader/impl/xb;Ljava/lang/String;)V
+bzA
+cIb
+com/amazon/ebook/booklet/pdfreader/impl/lb
+com/amazon/ebook/booklet/pdfreader/impl/u
+com/amazon/ebook/util/a/w
+com/amazon/ebook/util/log/b
+com/amazon/ebook/booklet/pdfreader/impl/v
+com/amazon/ebook/booklet/pdfreader/impl/yb

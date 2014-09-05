@@ -1,0 +1,19 @@
+Your purchase could not be completed. We are experiencing technical difficulties. Please try again later.	
+We are unable to process your request. Please try again later.	
+Purchase Limit Reached	
+Your purchase could not be completed. You have reached the maximum purchase quantity.	
+Offer Expired	
+Your purchase could not be completed. This offer has expired	
+customer	
+To complete your AmazonLocal order, connect to a wireless network within the next {0,number,integer} days. We will send a voucher to your Home screen and a notification to your email account once your order has processed. The voucher will contain instructions on how to redeem this deal.	
+You have other orders pending. Click here to view	
+Purchased by Accident? Cancel this Order	
+<% customer-name %>, you're almost done.	
+Your order will be placed when you connect to wireless.	
+View All Special Offers	
+Order Cancelled	
+You have successfully cancelled your order for <% option-title %> from <% merchant-name %>. Your card was not charged.	
+Registration Required 	
+In order to purchase Special Offers, you must first register your Kindle to an Amazon account.	
+cancel	
+register	

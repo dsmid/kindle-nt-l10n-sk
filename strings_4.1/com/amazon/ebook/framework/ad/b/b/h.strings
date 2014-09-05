@@ -1,0 +1,9 @@
+Exceptions
+SourceFile
+java/lang/Object
+com/amazon/ebook/framework/ad/exceptions/pkg/AdRotationConfigurationParseException
+xJ
+(Ljava/io/File;)Lcom/amazon/ebook/framework/ad/b/b/d;
+com/amazon/ebook/framework/ad/b/b/h
+zh
+LocalVariableTable

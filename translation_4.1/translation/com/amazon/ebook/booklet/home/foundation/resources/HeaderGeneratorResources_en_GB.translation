@@ -1,0 +1,21 @@
+All My Items	
+0#Showing {0,number,integer} Items|1#Showing {0,number,integer} Item|2#Showing {0,number,integer} Items	
+Books	
+0#Showing {0,number,integer} Books|1#Showing {0,number,integer} Book|2#Showing {0,number,integer} Books	
+Collections	
+0#Showing {0,number,integer} Collections|1#Showing {0,number,integer} Collection|2#Showing {0,number,integer} Collections	
+Personal Docs	
+0#Showing {0,number,integer} Personal Docs|1#Showing {0,number,integer} Personal Doc|2#Showing {0,number,integer} Personal Docs	
+Subscriptions	
+0#Showing {0,number,integer} Subscriptions|1#Showing {0,number,integer} Subscription|2#Showing {0,number,integer} Subscriptions	
+Author	
+By Author	
+By Collections	
+Collections Only	
+By Collections Only	
+Most Recent First	
+By Most Recent First	
+Relevance	
+By Relevance	
+Title	
+By Title	

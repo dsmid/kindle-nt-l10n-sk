@@ -1,0 +1,7 @@
+getFontMetrics
+(Ljava/awt/Font;Ljava/awt/FontMetrics;)Ljava/awt/FontMetrics;
+SourceFile
+com/amazon/kindle/kindlet/ui/helper/FontMetricsHelper
+java/lang/Object
+uk
+LocalVariableTable

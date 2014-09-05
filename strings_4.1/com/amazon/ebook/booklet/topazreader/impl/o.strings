@@ -1,0 +1,36 @@
+Ljava/lang/String;
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+()V
+()Ljava/lang/String;
+<clinit>
+SourceFile
+TopazFileHook::closeFD: Attempting to close file descriptor...
+TopazFileHook::closeFD: Finished closing file descriptor
+TopazFileHook
+java/lang/Object
+UtilHook
+InnerClasses
+(Ljava/lang/String;)V
+close
+getInstance
+f
+K
+Lcom/amazon/ebook/booklet/topazreader/impl/f;
+l
+Lcom/amazon/ebook/util/log/b;
+aC
+a
+Lcom/amazon/ebook/booklet/topazreader/impl/o;
+gO
+(Lcom/amazon/ebook/booklet/topazreader/impl/f;Ljava/lang/String;)V
+com/amazon/ebook/booklet/topazreader/impl/o
+ogd
+com/amazon/ebook/util/file/v
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/b;
+GwA
+com/amazon/ebook/util/file/l
+com/amazon/ebook/booklet/topazreader/impl/f
+com/amazon/ebook/util/log/b

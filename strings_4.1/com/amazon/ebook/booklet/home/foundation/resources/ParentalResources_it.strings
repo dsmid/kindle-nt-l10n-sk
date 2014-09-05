@@ -1,0 +1,59 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ParentalResources_it;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+header.text
+Parental Control
+desc.body.text
+Quando Parental Control è abilitato, i valori predefiniti per la cancellazione della registrazione e  il ripristino delle impostazioni di fabbrica sono disabilitati.~~~~Se il Kindle Store è bloccato, è possibile continuare ad acquistare libri dal computer inviandoli successivamente al Kindle.
+desc.cursor.text
+
+cursor.set
+imposta
+body.text
+Specifica le restrizioni sul tuo Kindle.
+body.text.disabled
+Il Kindle è un dispositivo gestito. Parental Control è bloccato.
+widget.browser.header
+Web Browser
+widget.store.header
+Kindle Store
+widget.archive.header
+Elementi archiviati
+widget.browser.body
+Accesso al browser Web sperimentale
+widget.store.body
+Accesso al Kindle Store
+widget.archive.body
+Accesso agli Elementi archiviati
+widget.cursor.on
+attiva
+widget.cursor.off
+disattiva
+password.body.text
+Imposta la password per il Parental Control
+submit.body.text
+Seleziona salva per modificare le impostazioni del Parental Control e riavviare Kindle.
+submit.header.text
+Le impostazioni del Parental Control sono state modificate:
+submit.button.submit.text
+salva
+settings.widget.max.num.desc.lines
+java/lang/Integer
+parental.pwd.overlay.height
+parental.widget.spacing
+com/amazon/ebook/booklet/home/foundation/resources/ParentalResources_it
+java/util/ListResourceBundle
+(I)V
+f
+a
+kig

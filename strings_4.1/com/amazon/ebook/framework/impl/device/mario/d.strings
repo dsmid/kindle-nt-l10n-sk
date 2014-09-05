@@ -1,0 +1,202 @@
+UpdateFile
+InnerClasses
+InvalidUpdateException
+[B
+I
+ConstantValue
+Ljava/lang/String;
+Ljava/io/File;
+J
+[S
+[[B
+Z
+<init>
+(Ljava/io/File;)V
+Code
+LineNumberTable
+LocalVariableTable
+Exceptions
+(Ljava/io/File;Z)V
+()V
+Ljava/io/FileInputStream;
+Ljava/io/DataInputStream;
+(Ljava/io/DataInputStream;)V
+e
+Ljava/lang/Exception;
+i
+S
+([B[B)Z
+getBytes
+(I[B)I
+(ILjava/io/DataInputStream;)J
+(Ljava/io/DataInputStream;)S
+()Ljava/lang/String;
+()J
+()I
+()Z
+(S)Z
+<clinit>
+SourceFile
+.bin
+com/amazon/ebook/framework/impl/device/mario/VersionManagerImpl$UpdateFile$InvalidUpdateException
+File does not have the proper extension.
+java/io/DataInputStream
+UpdateCheckFailed reason=headerTooShortInPresignature
+UpdateCheckFailed reason=badCertType.
+UpdateCheckFailed reason=headerTooShortInPresignature 
+UpdateCheckFailed reason=headerTooShortSignature
+UpdateCheckFailed reason=badMagicNumber.
+java/lang/Exception
+UpdateCheckFailed reason=headerTooShortInSoftwareVersion
+UpdateCheckFailed reason=headerTooShortInDeviceCodeLength
+UpdateCheckFailed reason=headerTooShortInDeviceCodeList
+UpdateCheckFailed reason=headerTooShortInPostDeviceCodeList
+UpdateCheckFailed reason=headerTooShortInMetadataCount
+UpdateCheckFailed reason=invalidMetadataLength
+UpdateCheckFailed reason=headerTooShortInDeviceCode
+UpdateCheckFailed reason=unknownSigningEnvelopeType
+EnteringFullbinUpdateVerification, Update type is Fullbin
+UpdateCheckFailed reason=deviceCodeMismatch
+EnteringOTAUpdateVerification, Update type is OTA
+UpdateCheckFailed reason=updateVersionMismatch
+UpdateCheckFailed reason=updateOrDeviceSoftwareIsTooOld
+EnteringVersionlessUpdateVerification Update type is versionless
+SuccessfulOTACheck Exiting OTA Check
+java/lang/StringBuffer
+UpdateFile::getFile skipped 
+ bytes instead of the expected 
+Error reading long.
+Error reading short.
+Update_
+_
+Update_PRL_
+update-full.bin
+FB02
+FC04
+FL01
+FC02
+FB03
+FD04
+SP01
+java/lang/Object
+java/io/IOException
+java/io/File
+getName
+java/lang/String
+toLowerCase
+endsWith
+(Ljava/lang/String;)Z
+(Ljava/io/File;)Ljava/io/FileInputStream;
+(Ljava/io/InputStream;)V
+read
+([BII)I
+([B)I
+close
+java/io/FileInputStream
+readShort
+()S
+access$000
+(Ljava/lang/String;)V
+access$100
+access$200
+getVersionInfo
+java/util/Arrays
+equals
+skipBytes
+(I)I
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+getCanonicalPath
+separator
+valueOf
+(J)Ljava/lang/String;
+()[B
+f
+K
+l
+L
+m
+a
+F
+g
+k
+h
+j
+D
+b
+M
+A
+c
+C
+B
+d
+G
+E
+H
+t
+n
+q
+W
+V
+x
+U
+T
+R
+w
+o
+z
+v
+O
+X
+u
+s
+xwb
+Xvb
+Lcom/amazon/ebook/framework/impl/device/mario/d;
+BVb
+Ovb
+Ywb
+SWb
+CD
+eWb
+YWb
+aC
+qxb
+aWb
+xWb
+fwb
+XVb
+Xwb
+HVb
+evb
+com/amazon/ebook/framework/impl/device/mario/d
+zbd
+FC
+WI
+()Lcom/amazon/ebook/framework/service/h;
+Yj
+()Lcom/amazon/ebook/framework/service/v;
+xG
+()Lcom/amazon/ebook/framework/service/d;
+()Lcom/amazon/ebook/framework/a/h;
+YB
+wC
+()Lcom/amazon/ebook/pl/service/j;
+()Lcom/amazon/ebook/pl/h;
+bzA
+()Lcom/amazon/ebook/util/log/b;
+cIb
+(Lcom/amazon/ebook/framework/impl/device/mario/d;Ljava/lang/String;Ljava/lang/Throwable;)V
+YHb
+(Lcom/amazon/ebook/framework/impl/device/mario/d;Ljava/lang/String;)V
+com/amazon/ebook/framework/service/h
+com/amazon/ebook/framework/service/v
+com/amazon/ebook/framework/service/d
+com/amazon/ebook/framework/a/h
+com/amazon/ebook/pl/service/j
+com/amazon/ebook/pl/h
+com/amazon/ebook/framework/impl/device/mario/c
+com/amazon/ebook/util/log/b
+com/amazon/ebook/util/file/l

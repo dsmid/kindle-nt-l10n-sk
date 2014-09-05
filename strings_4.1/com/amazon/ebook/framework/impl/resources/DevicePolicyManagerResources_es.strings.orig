@@ -1,0 +1,85 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_es;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+device.policy.will.reboot.message
+El Kindle ha recibido la orden de reiniciarse. Este proceso se iniciará en breve. Espera hasta que el dispositivo se haya reiniciado completamente.
+device.policy.default.devicetype
+Este Kindle es un dispositivo administrado.
+device.policy.default.feature
+Esta función está bloqueada.
+device.policy.default.contact
+su administrador del sistema
+device.policy.default.customer
+Servicio de atención al cliente de Kindle en www.kindle.com/support
+device.policy.parental.devicetype
+Este Kindle es un dispositivo registrado.
+device.policy.parental.feature
+device.policy.password.required.template
+java/text/MessageFormat
+{0} Requiere una constraseña. Para obtener información adicional, ponte en contacto con: {1}.
+device.policy.disabled.template
+{0} {1} Contactar a: {2}.
+device.policy.factory.reset.template
+{0} Ha recibido instrucciones de restablecer los valores predeterminados, con lo que se eliminará todo el contenido descargado y transferido. Este proceso se iniciará en breve. Espera hasta que el proceso se haya completado. Para obtener información adicional, contacta con {1}.
+parental.action.disabled.template
+El control paterno está activado en tu Kindle. {0}
+parental.device.policy.action.experimental.browser.disabled
+El navegador web está bloqueado.
+parental.device.policy.action.kindlestore.disabled
+La Tienda Kindle está bloqueada.
+parental.device.policy.action.archiveditems.disabled
+El Contenido archivado está bloqueado.
+parental.device.policy.action.activecontent.disabled
+Active content está bloqueado.
+parental.device.policy.action.purchases.disabled
+Las compras están bloqueadas.
+parental.device.policy.action.settings.deregistration.disabled
+La anulación del registro está bloqueada.
+device.policy.default.password.hint
+Contraseña predeterminada activada
+device.policy.disabled.name.registration
+El registro está bloqueado.
+device.policy.action.settings.deregistration.disabled
+device.policy.action.settings.editdevicename.disabled
+El cambio de nombre del dispositivo está bloqueado.
+device.policy.action.settings.wifisettings.disabled
+La configuración del wifi está bloqueada.
+device.policy.action.settings.managesocialnetworks.disabled
+La configuración de redes sociales está bloqueada.
+device.policy.action.settings.togglepopularhighlights.disabled
+La configuración de subrayados populares está bloqueada.
+device.policy.action.settings.togglepublicnotes.disabled
+La configuración de notas públicas está bloqueada.
+device.policy.action.settings.toggleannotationsbackup.disabled
+La configuración de copias de seguridad de notas está bloqueada.
+device.policy.action.settings.editpersonalinfo.disabled
+La información personal está bloqueada.
+device.policy.action.settings.changelanguage.disabled
+La configuración de idioma del dispositivo está bloqueada.
+device.policy.action.settings.changeprimarydictionary.disabled
+El cambio de diccionarios está bloqueado.
+device.policy.action.settings.turnonpassword.disabled
+La configuración de la contraseña está bloqueada.
+device.policy.action.experimental.browser.disabled
+device.policy.action.kindlestore.disabled
+device.policy.action.activecontent.disabled
+device.policy.action.experimental.mp3player.disabled
+El reproductor de MP3 está bloqueado.
+device.policy.action.builtingames.disabled
+El juego está bloqueado.
+com/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_es
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+f
+a
+hfd

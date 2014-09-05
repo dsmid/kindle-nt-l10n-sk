@@ -1,0 +1,124 @@
+PREFERRED_ENCODING
+Ljava/lang/String;
+ConstantValue
+mTestOutput
+Ljava/io/StringWriter;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/ad/odot/OdotLiteTest;
+setUp
+Exceptions
+tearDown
+testEnqueueValidMessage
+Ljava/lang/Exception;
+[B
+J
+testEnqueueValidMessageNonAsciiPayload
+testEnqueueInvalidNullTopic
+Lcom/amazon/ebook/framework/ad/odot/InvalidMessageException;
+Ljava/io/UnsupportedEncodingException;
+testEnqueueInvalidEmptyTopic
+testEnqueueInvalidWhitespaceTopic
+testEnqueueInvalidNonAlphaNumericTopic
+testEnqueueInvalidRepeatingPeriodsTopic
+testEnqueueInvalidNonAsciiTopic
+testEnqueueInvalidNullPayload
+testEnqueueInvalidEmptyBytePayload
+getFieldFromOutput
+(ILjava/lang/String;)Ljava/lang/String;
+I
+Ljava/util/StringTokenizer;
+getCrcVal
+(Ljava/lang/String;CCLjava/lang/String;)J
+C
+computeCrc
+(Ljava/lang/String;[B)J
+crc
+Ljava/util/zip/CRC32;
+SourceFile
+java/io/StringWriter
+Here's my test payload
+ODOT.my.test.topic.123
+UTF-8
+java/lang/Exception
+java/lang/StringBuffer
+Odot enqueue failed for valid odot msg 
+:
+Topic input does not match topic output
+java/lang/String
+CRC not found in output
+Computed CRC doesn't match input CRC
+àá
+ODOT.my.test.topic.124
+Odot enqueue with null topic should have caused exception
+com/amazon/ebook/framework/ad/odot/InvalidMessageException
+java/io/UnsupportedEncodingException
+Odot failed for unsupported encoding 
+
+Odot enqueue with empty topic should have caused exception
+My. ODOT Test
+Odot enqueue with invalid space char topic should have caused exception
+()*&#####boink!
+Odot enqueue with invalid char topic should have caused exception
+My..ODOT.test
+Odot enqueue with repeating period topic should have caused exception
+Odot enqueue with non-ascii topic should have caused exception
+valid.topic
+Odot enqueue with null payload should have caused exception
+Odot enqueue with invalid base64 should have caused exception
+java/util/StringTokenizer
+java/util/zip/CRC32
+com/amazon/ebook/framework/ad/odot/OdotLiteTest
+junit/framework/TestCase
+getBytes
+(Ljava/lang/String;)[B
+printStackTrace
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+getMessage
+()Ljava/lang/String;
+toString
+fail
+(Ljava/lang/String;)V
+assertEquals
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+([BLjava/lang/String;)V
+(Ljava/lang/String;Ljava/lang/String;)V
+assertNotNull
+(Ljava/lang/String;Ljava/lang/Object;)V
+(Ljava/lang/String;JJ)V
+hasMoreTokens
+()Z
+nextToken
+startsWith
+(Ljava/lang/String;)Z
+indexOf
+(I)I
+length
+()I
+substring
+(II)Ljava/lang/String;
+java/lang/Long
+parseLong
+(Ljava/lang/String;)J
+update
+([B)V
+getValue
+()J
+a
+Lcom/amazon/ebook/util/log/y;
+dpd
+by
+MOB
+(Ljava/lang/String;[BLcom/amazon/ebook/framework/a/h;)V
+vhb
+(Lcom/amazon/ebook/util/log/y;)V
+(Lcom/amazon/ebook/util/log/h;Ljava/io/Writer;)V
+com/amazon/ebook/util/text/hb
+com/amazon/ebook/framework/ad/odot/h
+com/amazon/ebook/util/log/u
+com/amazon/ebook/util/log/c
+com/amazon/ebook/util/log/y

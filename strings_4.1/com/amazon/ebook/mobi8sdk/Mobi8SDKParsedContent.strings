@@ -1,0 +1,17 @@
+content
+Ljava/lang/String;
+startPosition
+J
+endPosition
+<init>
+()V
+Code
+getContent
+()Ljava/lang/String;
+getStartPosition
+()J
+getEndPosition
+dispose
+com/amazon/ebook/mobi8sdk/Mobi8SDKParsedContent
+java/lang/Object
+com/amazon/ebook/mobi8sdk/ParsedContent

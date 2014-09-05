@@ -1,0 +1,86 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_pt;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+device.policy.will.reboot.message
+O Kindle recebeu um comando para reiniciar. Este processo será iniciado dentro de instantes. Aguarde até que o dispositivo tenha sido reiniciado completamente.
+device.policy.default.devicetype
+Este Kindle é um dispositivo gerenciado.
+device.policy.default.feature
+Este recurso está bloqueado.
+device.policy.default.contact
+seu administrador de sistema
+device.policy.default.customer
+Serviços de atendimento ao cliente Kindle no endereço www.kindle.com/support
+device.policy.parental.devicetype
+Este Kindle é um dispositivo restrito.
+device.policy.parental.feature
+device.policy.password.required.template
+java/text/MessageFormat
+{0} Senha exigida. Para informações adicionais, entre em contato com: {1}.
+device.policy.disabled.template
+{0} {1} Para informações adicionais, entre em contato com: {2}.
+device.policy.factory.reset.template
+{0} O Kindle foi instruído a voltar aos padrões de fábrica, o que removerá todo o conteúdo baixado e transferido. Este processo será iniciado dentro de instantes. Aguarde até a conclusão do processo. Para informações adicionais, entre em contato: {1}.
+parental.action.disabled.template
+Os Controles de Pais foram ativados em seu Kindle. {0}
+parental.device.policy.action.experimental.browser.disabled
+O navegador de Internet está bloqueado.
+parental.device.policy.action.kindlestore.disabled
+A Loja Kindle está bloqueada.
+parental.device.policy.action.archiveditems.disabled
+Os Itens arquivados estão bloqueados.
+parental.device.policy.action.activecontent.disabled
+Os itens ativos estão bloqueados.
+parental.device.policy.action.purchases.disabled
+As compras estão bloqueadas.
+parental.device.policy.action.settings.deregistration.disabled
+O cancelamento de registro está bloqueado.
+device.policy.default.password.hint
+Senha padrão ativada
+device.policy.disabled.name.registration
+O registro está bloqueado.
+device.policy.action.settings.deregistration.disabled
+device.policy.action.settings.editdevicename.disabled
+A alteração do nome do dispositivo está bloqueada.
+device.policy.action.settings.wifisettings.disabled
+As configurações de Wi-Fi estão bloqueadas.
+device.policy.action.settings.managesocialnetworks.disabled
+A configuração de redes sociais está bloqueada.
+device.policy.action.settings.togglepopularhighlights.disabled
+A configurações de destaques está bloqueada.
+device.policy.action.settings.togglepublicnotes.disabled
+A configuração de notas públicas está bloqueada.
+device.policy.action.settings.toggleannotationsbackup.disabled
+A configuração de backup de anotações está bloqueada.
+device.policy.action.settings.editpersonalinfo.disabled
+As informações pessoais estão bloqueadas.
+device.policy.action.settings.changelanguage.disabled
+A configuração de idioma do dispositivo está bloqueada.
+device.policy.action.settings.changeprimarydictionary.disabled
+Alterações de dicionário estão bloqueadas.
+device.policy.action.settings.turnonpassword.disabled
+A configuração de senha está bloqueada.
+device.policy.action.experimental.browser.disabled
+device.policy.action.kindlestore.disabled
+device.policy.action.activecontent.disabled
+O conteúdo ativo está bloqueado.
+device.policy.action.experimental.mp3player.disabled
+O reprodutor de MP3 está bloqueado.
+device.policy.action.builtingames.disabled
+Os jogos estão bloqueados.
+com/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_pt
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+f
+a
+zvc

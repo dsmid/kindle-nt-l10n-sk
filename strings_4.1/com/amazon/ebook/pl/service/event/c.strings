@@ -1,0 +1,8 @@
+onStorageAvailabilityChange
+SourceFile
+java/lang/Object
+(Lcom/amazon/ebook/pl/service/event/lb;)V
+com/amazon/ebook/pl/service/event/c
+dc
+com/amazon/ebook/pl/service/event/h
+LocalVariableTable

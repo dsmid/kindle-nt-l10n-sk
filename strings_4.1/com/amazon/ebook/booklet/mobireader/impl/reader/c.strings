@@ -1,0 +1,17 @@
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+()Z
+SourceFile
+sp
+a
+Lcom/amazon/ebook/booklet/mobireader/impl/reader/c;
+po
+dn
+aN
+(Lcom/mobipocket/common/library/reader/qd;)V
+Lcom/mobipocket/common/library/reader/qd;
+com/amazon/ebook/booklet/mobireader/impl/reader/c
+cmf
+com/amazon/ebook/booklet/mobireader/impl/reader/d

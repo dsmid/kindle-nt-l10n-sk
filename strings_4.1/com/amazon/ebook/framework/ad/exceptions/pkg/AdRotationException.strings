@@ -1,0 +1,12 @@
+<init>
+(Ljava/lang/String;)V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/ad/exceptions/pkg/AdRotationException;
+Ljava/lang/String;
+SourceFile
+com/amazon/ebook/framework/ad/exceptions/pkg/AdRotationException
+java/lang/Exception
+a
+bmd

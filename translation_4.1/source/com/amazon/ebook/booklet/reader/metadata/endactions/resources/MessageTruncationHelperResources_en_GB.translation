@@ -1,0 +1,4 @@
+finished {0}	
+finished {0} by {1}	
+finished {0} and gave it {2,choice,1#{2} star|2#{2} stars}	
+finished {0} by {1} and gave it {2,choice,1#{2} star|2#{2} stars}	

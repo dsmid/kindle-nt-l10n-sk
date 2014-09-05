@@ -1,0 +1,5 @@
+Server inserted empty string as updated title	
+1#Zoom Image|2#Zoom Image {0,number,integer}	
+1#Follow Link|2#Follow Link {0,number,integer}	
+Unable to retrieve the definition from the default {0} dictionary. Please go to Settings and choose a different dictionary.	
+Unable to open the default dictionary. Please go to Settings and choose a different dictionary.	

@@ -1,0 +1,366 @@
+BatteryStateEventRegistrar
+InnerClasses
+PowerStateEventRegistrar
+I
+ConstantValue
+Ljava/lang/String;
+Z
+PowerState
+J
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+dispatchFirstPowerEvent
+()I
+onBatteryCritical
+()V
+onBatteryError
+event
+onBatteryStateChange
+Ljava/lang/StringBuffer;
+onPowerStateChange
+(II)V
+()Z
+(Z)V
+d
+resetScreenSaverTimer
+listener
+(IZ)V
+(I)V
+[Ljava/lang/Object;
+()Ljava/lang/String;
+Ljava/util/List;
+access$000
+Synthetic
+<clinit>
+SourceFile
+PowerImpl() starting up
+BATTERY_VERY_LOW_THRESHOLD_WANOFF
+BATTERY_LOW_THRESHOLD_WANOFF
+BATTERY_VERY_LOW_THRESHOLD_WANON
+BATTERY_LOW_THRESHOLD_WANON
+dispatchFirstPowerEvent() switch to ScreenSaverBooklet USB-Password
+dispatchFirstPowerEvent() switch to ScreenSaverBooklet (USB)
+dispatchFirstPowerEvent() switch to ScreenSaverBooklet (SS)
+dispatchFirstPowerEvent() switch to ScreenSaverBooklet (SS / Password)
+java/lang/String
+tempOutOfRange
+Ignoring event
+genericError
+java/lang/StringBuffer
+onBatteryStateChange level = 
+ isCharging = 
+Total time to handle power event:
+handlePowerStateChangeEvent 
+ 
+handlePowerChangeEvent() EVENT_ABOUT_TO_SUSPEND
+handlePowerChangeEvent() EVENT_SUSPENDING, EVENT_USER_SHUTDOWN
+SwitchingToScreenSaver
+handlePowerChangeEvent() Switching to ScrnSaver: PWR OFF
+Switched to screen saver
+handlePowerChangeEvent() already sent.
+handlePowerChangeEvent() EVENT_LOCKING
+handlePowerChangeEvent() Switching to ScrnSaver: SCRN_SAVER
+handlePowerChangeEvent() OTA update... 
+handlePowerChangeEvent() EVENT_UNSUSPENDING EVENT_OUT_OF_SHUTDOWN
+handlePowerChangeEvent() EVENT_OUT_OF_SHUTDOWN
+handlePowerChangeEvent() reason IS NOT REASON_USB_CONFIGURED
+handlePowerChangeEvent() ScrnSaverBooklet switchToLastBooklet
+EVENT_UNSUSPENDING/EVENT_OUT_OF_SHUTDOWN case
+handlePowerChangeEvent() EVENT_UNLOCKING 
+handlePowerEvent out_of_screen_saver because usb is plugged
+handlePowerChangeEvent finish EVENT_SUSPENDING or EVENT_USER_SHUTDOWN.
+handlePowerChangeEvent switchToLastBooklet
+
+isBatteryLow() wan_on 
+isBatteryLow() wan_off 
+PowerManager.isBatteryVeryLow wan_on 
+PowerManager.isBatteryVeryLow wan_off 
+checkLowBatteryCondition _start_ battery 
+checkLowBatteryCondition charging!
+checkLowBatteryCondition drivemode!
+checkLowBatteryCondition screen saver mode!
+com.amazon.ebook.framework.impl.resources.PowerImplResources
+pb.battery.depleted.msg
+pb.battery.low.wanoff.msg
+checkLowBatteryCondition _end_
+pb.battery.error.msg.pattern
+java/lang/Object
+pb.battery.temprange.msg.pattern
+customer.service.phone
+Missing CS phone numbers for market=
+, using default phone numbers.
+pb.battery.default.cs.phone.array.dnt
+[Ljava/lang/String;
+setLowBatteryAlertDisplayed = 
+setVeryLowBatteryAlertDisplayed = 
+PowerImpl
+HWID
+Hw Name
+UnknownPowerEvent
+DeferingSuspend
+BatteryError
+type
+(Ljava/lang/String;)V
+(Ljava/lang/String;I)I
+(I)Z
+com/amazon/ebook/framework/impl/Framework
+getInstance
+getState
+getErrorCode
+getLevel
+append
+(I)Ljava/lang/StringBuffer;
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(Z)Ljava/lang/StringBuffer;
+toString
+getEvent
+getReason
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+java/lang/System
+currentTimeMillis
+()J
+java/lang/Math
+max
+(JJ)J
+flushPendingWrites
+getContent
+(Ljava/net/URI;Z)V
+valueOf
+(I)Ljava/lang/String;
+(Ljava/lang/Object;)V
+java/util/ResourceBundle
+getBundle
+(Ljava/lang/String;)Ljava/util/ResourceBundle;
+getString
+(Ljava/lang/String;)Ljava/lang/String;
+getUIManager
+java/text/MessageFormat
+format
+(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+(Ljava/lang/String;I)V
+(Ljava/lang/String;)Ljava/util/List;
+java/util/List
+size
+getObject
+(Ljava/lang/String;)Ljava/lang/Object;
+edu/emory/mathcs/backport/java/util/Arrays
+asList
+([Ljava/lang/Object;)Ljava/util/List;
+FormatListType
+(Ljava/lang/String;[Ljava/lang/String;)V
+f
+K
+l
+L
+m
+a
+Lcom/amazon/ebook/framework/service/y;
+F
+e
+Lcom/amazon/ebook/framework/gui/foundation/vb;
+g
+k
+h
+j
+D
+b
+M
+Lcom/amazon/ebook/framework/impl/device/z;
+A
+Lcom/amazon/ebook/framework/impl/device/t;
+c
+Lcom/amazon/ebook/framework/a/h;
+C
+Lcom/amazon/ebook/pl/service/e;
+B
+Lcom/amazon/ebook/pl/service/r;
+Lcom/amazon/ebook/pl/h;
+G
+i
+Lcom/amazon/ebook/util/log/w;
+E
+H
+t
+n
+Lcom/amazon/ebook/util/log/b;
+q
+S
+W
+V
+x
+U
+T
+R
+w
+o
+z
+v
+O
+Kyb
+(Lcom/amazon/ebook/framework/impl/device/wb;Lcom/amazon/ebook/framework/gui/foundation/vb;)Lcom/amazon/ebook/framework/gui/foundation/vb;
+Lcom/amazon/ebook/framework/impl/device/wb;
+rZb
+(Lcom/amazon/ebook/framework/impl/device/wb;Z)Z
+mzb
+waB
+()Lcom/amazon/ebook/util/log/w;
+taB
+wyb
+(ZLcom/amazon/ebook/framework/gui/foundation/vb;)V
+Rzb
+Kzb
+baB
+NaB
+pzb
+saB
+czb
+zZb
+YZb
+wzb
+rzb
+sk
+(Lcom/amazon/ebook/framework/service/event/d;)V
+Lcom/amazon/ebook/framework/service/event/d;
+UYb
+GJ
+xK
+(Lcom/amazon/ebook/framework/device/a/c;)V
+Lcom/amazon/ebook/framework/device/a/c;
+FZb
+iL
+BB
+()Lcom/amazon/ebook/framework/service/y;
+uaB
+VC
+sXb
+ik
+Sd
+Nzb
+iaB
+DaB
+vYb
+Lcom/amazon/ebook/util/log/p;
+(Lcom/amazon/ebook/pl/service/event/vb;)I
+Lcom/amazon/ebook/pl/service/event/vb;
+(Lcom/amazon/ebook/pl/service/event/hb;)V
+Lcom/amazon/ebook/pl/service/event/hb;
+(Lcom/amazon/ebook/pl/service/event/gb;)V
+Lcom/amazon/ebook/pl/service/event/gb;
+CYb
+Lcom/amazon/ebook/framework/b/h;
+Lcom/amazon/ebook/framework/impl/device/q;
+(Lcom/amazon/ebook/pl/h;Lcom/amazon/ebook/framework/a/h;)V
+com/amazon/ebook/framework/impl/device/wb
+kbd
+com/amazon/ebook/framework/service/c
+com/amazon/ebook/pl/service/event/o
+com/amazon/ebook/pl/service/event/b
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/b;
+WUb
+(Lcom/amazon/ebook/framework/gui/foundation/vb;)Z
+smb
+(Ljava/util/List;Lcom/amazon/ebook/framework/kos/util/d;)Ljava/lang/String;
+Lcom/amazon/ebook/framework/kos/util/d;
+KA
+HDb
+IMb
+()Lcom/amazon/ebook/framework/service/a;
+(Lcom/amazon/ebook/framework/impl/device/wb;)V
+KVb
+(Lcom/amazon/ebook/framework/gui/foundation/vb;)V
+()Lcom/amazon/ebook/framework/gui/v;
+(Ljava/lang/String;ILcom/amazon/ebook/framework/gui/event/h;)V
+nhb
+nIb
+SXb
+qeB
+Whb
+TfB
+TE
+aI
+()Lcom/amazon/ebook/framework/service/comm/h;
+VHb
+(Lcom/amazon/ebook/util/log/w;[Ljava/lang/String;Ljava/lang/String;)V
+OK
+Si
+()Lcom/amazon/ebook/framework/ad/a/v;
+bYb
+()Lcom/amazon/ebook/framework/kos/content/catalog/r;
+wCB
+vxb
+()Lcom/amazon/ebook/framework/impl/device/v;
+()Lcom/amazon/ebook/framework/device/util/p;
+gG
+nob
+Qhb
+mIb
+(Ljava/lang/String;Lcom/amazon/ebook/util/log/b;)V
+dd
+heB
+AIb
+nfB
+jb
+MbB
+rDB
+()Lcom/amazon/ebook/framework/kos/event/w;
+yXb
+Vh
+WI
+()Lcom/amazon/ebook/framework/service/h;
+wDB
+()Lcom/amazon/ebook/framework/impl/booklet/h;
+lI
+DB
+eJ
+()Lcom/amazon/ebook/framework/b/h;
+bzA
+cIb
+LB
+(Lcom/amazon/ebook/pl/service/event/b;)V
+Ab
+(Lcom/amazon/ebook/pl/service/event/o;)V
+fc
+()Lcom/amazon/ebook/pl/service/e;
+eC
+()Lcom/amazon/ebook/pl/service/r;
+TOA
+qb
+()Lcom/amazon/ebook/pl/config/h;
+GwA
+com/amazon/ebook/framework/kos/util/v
+com/amazon/ebook/framework/kos/util/d
+com/amazon/ebook/framework/service/a
+com/amazon/ebook/framework/gui/v
+com/amazon/ebook/framework/service/comm/h
+com/amazon/ebook/framework/ad/a/v
+com/amazon/ebook/framework/kos/content/catalog/r
+com/amazon/ebook/pl/service/event/vb
+com/amazon/ebook/framework/impl/o
+com/amazon/ebook/pl/service/event/hb
+com/amazon/ebook/pl/service/event/gb
+com/amazon/ebook/framework/impl/booklet/screensaver/w
+com/amazon/ebook/framework/kos/event/w
+com/amazon/ebook/framework/impl/booklet/h
+com/amazon/ebook/framework/b/h
+com/amazon/ebook/pl/service/e
+com/amazon/ebook/framework/a/h
+com/amazon/ebook/pl/service/r
+com/amazon/ebook/pl/config/h
+com/amazon/ebook/pl/h
+com/amazon/ebook/util/log/b
+com/amazon/ebook/framework/service/y
+com/amazon/ebook/util/log/w
+com/amazon/ebook/framework/impl/device/k
+com/amazon/ebook/framework/impl/device/zb
+com/amazon/ebook/framework/gui/foundation/vb
+com/amazon/ebook/framework/service/event/b
+com/amazon/ebook/framework/device/a/r
+com/amazon/ebook/framework/impl/device/mario/c
+com/amazon/ebook/framework/impl/util/o
+com/amazon/ebook/util/log/p
+com/amazon/ebook/framework/impl/e
+com/amazon/ebook/framework/impl/device/q
+com/amazon/ebook/framework/impl/device/z
+com/amazon/ebook/framework/impl/device/t

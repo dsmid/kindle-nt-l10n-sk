@@ -1,0 +1,23 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/HomeDictionaryResources_en_GB;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+dictionaries.header.text
+Dictionaries
+dictionaries.filter.format
+0#Showing {0,number,integer} Dictionaries |1#Showing {0,number,integer} Dictionary|2#Showing {0,number,integer} Dictionaries
+dictioaries.view.sound
+com/amazon/ebook/booklet/home/foundation/resources/HomeDictionaryResources_en_GB
+java/util/ListResourceBundle
+f
+a
+xqg

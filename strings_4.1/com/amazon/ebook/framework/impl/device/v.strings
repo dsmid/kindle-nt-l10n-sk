@@ -1,0 +1,17 @@
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+getInstance
+()Z
+<clinit>
+SourceFile
+f
+Lcom/amazon/ebook/framework/impl/device/v;
+cxb
+()Lcom/amazon/ebook/framework/impl/device/v;
+a
+com/amazon/ebook/framework/impl/device/v
+jdd
+com/amazon/ebook/framework/kos/util/o

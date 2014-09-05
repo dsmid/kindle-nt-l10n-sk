@@ -1,0 +1,89 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+device.policy.will.reboot.message
+This Kindle has been instructed to restart. This process will begin shortly. Please wait until the device has fully restarted.
+device.policy.default.devicetype
+This Kindle is a managed device.
+device.policy.default.feature
+This feature is blocked.
+device.policy.default.contact
+your system administrator
+device.policy.default.customer
+Kindle Customer Service at www.kindle.com/support
+device.policy.parental.devicetype
+This Kindle is a restricted device.
+device.policy.parental.feature
+device.policy.password.required.template
+java/text/MessageFormat
+{0} It requires a password. For additional information, contact: {1}.
+device.policy.disabled.template
+{0} {1} For additional information, contact: {2}.
+device.policy.factory.reset.template
+{0} It has been instructed to reset to factory defaults, which will remove all downloaded and transferred content. This process will begin shortly. Please wait until this process is complete. For additional information, contact: {1}.
+parental.action.disabled.template
+Parental Controls are enabled on your Kindle. {0}
+parental.device.policy.action.experimental.browser.disabled
+Web Browser is locked.
+parental.device.policy.action.kindlestore.disabled
+Kindle Store is locked.
+parental.device.policy.action.archiveditems.disabled
+Archived Items are locked.
+parental.device.policy.action.activecontent.disabled
+Active Items are locked.
+parental.device.policy.action.purchases.disabled
+Purchases are locked.
+parental.device.policy.action.settings.deregistration.disabled
+Deregistration is locked.
+device.policy.default.password.hint
+Default Password Enabled
+device.policy.disabled.name.registration
+Registration is blocked.
+device.policy.action.settings.deregistration.disabled
+Deregistration is blocked.
+device.policy.action.settings.editdevicename.disabled
+Changing the device name is blocked.
+device.policy.action.settings.wifisettings.disabled
+Wi-Fi Settings configuration is blocked.
+device.policy.action.settings.managesocialnetworks.disabled
+Social Networks configuration is blocked.
+device.policy.action.settings.togglepopularhighlights.disabled
+Popular Highlights configuration is blocked.
+device.policy.action.settings.togglepublicnotes.disabled
+Public Notes configuration is blocked.
+device.policy.action.settings.toggleannotationsbackup.disabled
+Annotations Backup configuration is blocked.
+device.policy.action.settings.editpersonalinfo.disabled
+Personal Info is blocked.
+device.policy.action.settings.changelanguage.disabled
+Device Language configuration is blocked.
+device.policy.action.settings.changeprimarydictionary.disabled
+Dictionary changes are blocked.
+device.policy.action.settings.turnonpassword.disabled
+Password configuration is blocked.
+device.policy.action.experimental.browser.disabled
+Web Browser is blocked.
+device.policy.action.kindlestore.disabled
+Kindle Store is blocked.
+device.policy.action.activecontent.disabled
+Active Content is blocked.
+device.policy.action.experimental.mp3player.disabled
+MP3 Player is blocked.
+device.policy.action.builtingames.disabled
+Game is blocked.
+com/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+f
+a
+ocd

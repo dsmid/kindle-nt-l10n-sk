@@ -1,0 +1,59 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ParentalResources_fr;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+header.text
+Contrôle parental
+desc.body.text
+Lorsque le contrôle parental est activé, Désenregistrement et Restaurer les paramètres par défaut sont désactivés.~~~~Lorsque la boutique Kindle est verrouillée, vous pouvez continuer à acheter des livres sur votre ordinateur et les envoyer sur votre Kindle.
+desc.cursor.text
+
+cursor.set
+définir
+body.text
+Précisez les restrictions sur votre Kindle.
+body.text.disabled
+Ce Kindle est un appareil géré. Le contrôle parental est bloqué.
+widget.browser.header
+Navigateur Web
+widget.store.header
+Boutique Kindle
+widget.archive.header
+Archives
+widget.browser.body
+Accéder au navigateur Web expérimental
+widget.store.body
+Accéder à la boutique Kindle
+widget.archive.body
+Accéder aux Archives
+widget.cursor.on
+activer
+widget.cursor.off
+désactiver
+password.body.text
+Définir le mot de passe du contrôle parental
+submit.body.text
+Choisissez sauvegarder pour modifier le contrôle parental et redémarrer votre Kindle
+submit.header.text
+Le contrôle parental a changé :
+submit.button.submit.text
+sauvegarder
+settings.widget.max.num.desc.lines
+java/lang/Integer
+parental.pwd.overlay.height
+parental.widget.spacing
+com/amazon/ebook/booklet/home/foundation/resources/ParentalResources_fr
+java/util/ListResourceBundle
+(I)V
+f
+a
+fdg

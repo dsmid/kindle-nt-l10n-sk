@@ -1,0 +1,26 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/endactions/resources/AddToWishlistWidgetResources_en_GB;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+button.text
+Add to Wish List
+font.style
+java/lang/Integer
+steps.away.from.current.font.size
+ref.tag.feature.id
+aw
+com/amazon/ebook/booklet/reader/gui/view/endactions/resources/AddToWishlistWidgetResources_en_GB
+java/util/ListResourceBundle
+(I)V
+f
+a
+oue

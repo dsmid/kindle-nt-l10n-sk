@@ -1,0 +1,26 @@
+Add/Remove Items	
+Rename Collection	
+Delete Collection	
+This collection will be permanently deleted, but the contents will not be affected and will remain on your Kindle. Do you wish to continue?	
+save	
+Enter Collection Name	
+Edit Collection Name	
+Collection Name Already Exists	
+The collection name that you entered already exists. Please enter a different name.	
+{0} collection	
+0#Showing {0,number,integer} Items|1#Showing {0,number,integer} Item|2#Showing {0,number,integer} Items	
+0#Showing All {0,number,integer} Items|1#Showing All {0,number,integer} Item|2#Showing All {0,number,integer} Items	
+0#Showing All {0,number,integer} Books|1#Showing All {0,number,integer} Book|2#Showing All {0,number,integer} Books	
+0#Showing All {0,number,integer} Periodicals|1#Showing All {0,number,integer} Periodical|2#Showing All {0,number,integer} Periodicals	
+0#Showing All {0,number,integer} Personal Documents|1#Showing All {0,number,integer} Personal Document|2#Showing All {0,number,integer} Personal Documents	
+All My Items	
+Books	
+Subscriptions	
+Personal Docs	
+By Most Recent First	
+By Title	
+By Author	
+Most Recent First	
+Title	
+Author	
+Create a New Collection	

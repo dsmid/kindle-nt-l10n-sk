@@ -1,0 +1,141 @@
+Ljava/lang/String;
+ConstantValue
+J
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+(J)V
+URIHandlerState
+InnerClasses
+Ljava/io/File;
+Ljava/io/IOException;
+Ljava/net/URI;
+cdeKey
+cdeType
+(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
+Z
+Exceptions
+(Ljava/io/File;)V
+(Ljava/io/File;)Ljava/lang/String;
+<clinit>
+()V
+SourceFile
+APNX
+java/io/File
+java/lang/String
+unfinished/missing catalog item
+Processing failed because correspoding book catalog item is not avaiable
+Failed to clean up downloaded bits
+java/lang/StringBuffer
+Processing incoming sidecar 
+ for associated catalog item
+apnx
+java/io/SyncFailedException
+Cannot compute correct target sidecar filename
+java/io/IOException
+Could not process incoming APNX sidecar : 
+Loaded CDE type from sidecar, cdeType = 
+Getting catalog item, cdeKey = 
+, cdeType = 
+Waiting 
+ ms for catalog item to appear, 
+cdeKey = 
+Found catalog match, cdeKey = 
+Renaming APNX file to destination sidecar file name...
+Filesystem rename failed
+Deleting unprocessed temporary sidecar file...
+Failed to clean up temporary sidecar file.  Continuing...
+ReaderSyncPageNumbers
+ProcessingPageNumberSidecarFailed
+reason
+FileRemovalFailed
+java/lang/Object
+equals
+(Ljava/lang/Object;)Z
+HandlerState
+(Ljava/net/URI;)Ljava/lang/String;
+(Ljava/lang/String;)V
+delete
+()Z
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+getFilePath
+(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+toURI
+()Ljava/net/URI;
+getMessage
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+(J)Ljava/lang/StringBuffer;
+renameTo
+(Ljava/io/File;)Z
+exists
+getAbsolutePath
+getCdeType
+getInstance
+(Ljava/lang/String;[Ljava/lang/String;)V
+f
+K
+Lcom/amazon/ebook/booklet/reader/zc;
+l
+Lcom/amazon/ebook/framework/kos/content/catalog/r;
+L
+Lcom/amazon/ebook/util/log/w;
+I
+m
+a
+F
+Lcom/amazon/ebook/util/log/b;
+Kpc
+Lcom/amazon/ebook/booklet/reader/pagenumbers/c;
+Xpc
+irc
+Lcom/amazon/ebook/booklet/reader/annotation/v;
+cpc
+(Lcom/amazon/ebook/framework/kos/content/p;)Z
+Lcom/amazon/ebook/framework/kos/content/p;
+brc
+(Ljava/lang/String;Ljava/io/File;)Lcom/amazon/ebook/framework/kos/content/p;
+oqc
+(Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;)Lcom/amazon/ebook/framework/kos/content/x;
+kRc
+(Lcom/amazon/ebook/framework/kos/content/catalog/r;Lcom/amazon/ebook/booklet/reader/zc;)V
+com/amazon/ebook/booklet/reader/annotation/v
+ajf
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/b;
+phb
+KA
+yPc
+(Lcom/amazon/ebook/booklet/reader/zc;)Ljava/lang/String;
+iqb
+(Lcom/amazon/ebook/framework/kos/content/catalog/r;Ljava/lang/String;Ljava/lang/String;J)Lcom/amazon/ebook/framework/kos/content/p;
+bzA
+cIb
+dRb
+(Lcom/amazon/ebook/framework/kos/content/catalog/r;Ljava/lang/String;Ljava/lang/String;)Lcom/amazon/ebook/framework/kos/content/p;
+KvA
+Lcom/amazon/ebook/framework/kos/content/e;
+Ltc
+mAc
+GwA
+(Lcom/amazon/ebook/framework/kos/content/e;Ljava/net/URI;)V
+VHb
+(Lcom/amazon/ebook/util/log/w;[Ljava/lang/String;Ljava/lang/String;)V
+rhb
+vIb
+(Lcom/amazon/ebook/framework/kos/content/e;)V
+com/amazon/ebook/booklet/reader/y
+com/amazon/ebook/framework/kos/content/catalog/x
+com/amazon/ebook/booklet/reader/zc
+com/amazon/ebook/booklet/reader/metadata/v
+com/amazon/ebook/framework/kos/content/p
+com/amazon/ebook/util/log/b
+com/amazon/ebook/util/net/c
+com/amazon/ebook/framework/kos/content/e
+com/amazon/ebook/framework/kos/content/h
+com/amazon/ebook/util/log/w
+com/amazon/ebook/booklet/reader/pagenumbers/c
+com/amazon/ebook/framework/kos/content/x

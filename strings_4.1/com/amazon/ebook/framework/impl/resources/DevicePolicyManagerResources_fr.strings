@@ -1,0 +1,87 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_fr;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+device.policy.will.reboot.message
+Ce Kindle a reçu l’instruction de redémarrer. Ce processus va commencer incessamment. Veuillez patienter jusqu’à ce que le redémarrage soit achevé.
+device.policy.default.devicetype
+Ce Kindle est un appareil géré.
+device.policy.default.feature
+Cette fonction est verrouillée.
+device.policy.default.contact
+votre administrateur système
+device.policy.default.customer
+Service client Kindle à l’adresse www.kindle.com/support
+device.policy.parental.devicetype
+Ce Kindle est sujet à des restrictions.
+device.policy.parental.feature
+device.policy.password.required.template
+java/text/MessageFormat
+{0} Un mot de passe est nécessaire. Pour davantage de renseignements, contactez : {1}.
+device.policy.disabled.template
+{0} {1} Pour davantage de renseignements, contactez : {2}.
+device.policy.factory.reset.template
+{0} Il a reçu l’instruction de revenir aux paramètres par défaut, ce qui effacera tout le contenu téléchargé et transféré. Ce processus va commencer incessamment. Veuillez patienter jusqu’à ce que le redémarrage soit achevé. Pour davantage de renseignements, contactez {1}.
+parental.action.disabled.template
+Le contrôle parental est activé sur votre Kindle. {0}
+parental.device.policy.action.experimental.browser.disabled
+Le navigateur Web est verrouillé
+parental.device.policy.action.kindlestore.disabled
+La boutique Kindle est verrouillée.
+parental.device.policy.action.archiveditems.disabled
+Les archives sont verrouillées.
+parental.device.policy.action.activecontent.disabled
+Les éléments actifs sont verrouillés.
+parental.device.policy.action.purchases.disabled
+Les achats sont verrouillés.
+parental.device.policy.action.settings.deregistration.disabled
+Le désenregistrement est verrouillé.
+device.policy.default.password.hint
+Mot de passe par défaut activé
+device.policy.disabled.name.registration
+L’enregistrement est verrouillé.
+device.policy.action.settings.deregistration.disabled
+device.policy.action.settings.editdevicename.disabled
+Le changement du nom de l’appareil est verrouillé.
+device.policy.action.settings.wifisettings.disabled
+La configuration des paramètres Wi-Fi est verrouillée.
+device.policy.action.settings.managesocialnetworks.disabled
+La configuration des réseaux sociaux est verrouillée.
+device.policy.action.settings.togglepopularhighlights.disabled
+La configuration des passages les plus surlignés est verrouillée.
+device.policy.action.settings.togglepublicnotes.disabled
+La configuration des notes publiques est verrouillée.
+device.policy.action.settings.toggleannotationsbackup.disabled
+La configuration de la sauvegarde des notes est verrouillée.
+device.policy.action.settings.editpersonalinfo.disabled
+Les infos personnelles sont verrouillées.
+device.policy.action.settings.changelanguage.disabled
+La configuration de la langue de l’appareil est verrouillée.
+device.policy.action.settings.changeprimarydictionary.disabled
+Le changement de dictionnaire est verrouillé.
+device.policy.action.settings.turnonpassword.disabled
+La configuration du mot de passe est verrouillée.
+device.policy.action.experimental.browser.disabled
+Le navigateur Web est verrouillé.
+device.policy.action.kindlestore.disabled
+device.policy.action.activecontent.disabled
+Le contenu actif est verrouillé.
+device.policy.action.experimental.mp3player.disabled
+Le lecteur MP3 est verrouillé.
+device.policy.action.builtingames.disabled
+Le jeu est verrouillé.
+com/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_fr
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+f
+a
+efd

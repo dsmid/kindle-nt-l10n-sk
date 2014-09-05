@@ -1,0 +1,125 @@
+Settings	
+The following pages contain settings to personalise your Kindle experience. Press the Next and Previous page buttons to see all the settings.	
+Wi-Fi Networks	
+not connected	
+Join a Wi-Fi network to buy books and use other Kindle features.	
+Available Wi-Fi Networks ({0,number,integer})~~Network: {1}	
+view	
+Registration	
+This device and any content purchased in the Kindle Store are registered to the Amazon user shown below.	
+register	
+deregister	
+Device Info	
+Wi-Fi MAC Address: {0}	
+Serial Number: {0}	
+Network Capability: {0}	
+System Tag: {0}	
+Policy ID: {0}	
+Unavailable	
+Wi-Fi	
+Wi-Fi and 3G	
+Device Name	
+Personalise your Kindle by giving it a name that appears on the Home page.	
+edit	
+Device Time	
+Set the time on your Kindle.	
+set	
+set manually	
+set automatically	
+Device Password	
+Restrict access to your Kindle by creating a password.	
+turn on	
+turn off	
+Popular Highlights	
+Display the passages that are most frequently highlighted by other Kindle users.	
+Public Notes	
+Show highlights and notes from other people whom you follow on {0}.	
+Voice Guide	
+Navigate your Kindle with spoken menus, selectable items and descriptions.	
+Send-to-Kindle Email	
+You can send documents to your Kindle by using the email address below. Go to {0} to change your settings.	
+You can send documents to your Kindle by using the email address below.	
+Personal Info	
+- no personal info -	
+manage	
+Social Networks	
+Share notes and highlights with friends using your social network accounts (such as Twitter or Facebook).	
+Annotations Backup	
+Automatically backup your device annotations, last page read and collections at Amazon.	
+Automatically back up your device annotations, last page read, and collections at Amazon. Annotations not previously backed up may be lost.	
+Update Your Kindle	
+Change Primary Dictionary	
+Restart	
+Legal	
+There was an error while deregistering your device. Please try again later.	
+About Kindle	
+{0}, Page {1,number,integer} of {2,number,integer}, {3}	
+Enter Password: 	
+Incorrect password. Please try again.	
+Create a password to protect your Kindle.  If you forget your password, you can reset your Kindle, which will also remove all content to prevent other people from accessing it.	
+Enter New Password: 	
+Enter Password Hint: 	
+Enter a phrase that can help you remember your password	
+Your password must contain at least {0, number, integer} characters. Please try again.	
+Join a Wi-Fi Network	
+To register your Kindle, shop or browse for content in the Kindle Store or view Web sites, first connect to a Wi-Fi network.~~~~You can always set up a Wi-Fi connection later through the Settings page.	
+join a network	
+remind me later	
+{0,number,integer} of {1,number,integer}	
+close	
+Set Device Name	
+save	
+Deregister Your Kindle	
+Your Kindle will be deregistered from your Amazon account and many features will not work. After deregistering, you can register your device to another Amazon account.	
+You are about to change the date on your Kindle by more than a day. An incorrect date may prevent your Kindle from working properly. Are you sure you wish to proceed?	
+Device Language	
+Set the language for your Kindle.	
+Dictionaries	
+Select the default dictionaries for your Kindle.	
+Page Refresh	
+Refresh the E Ink display with every page turn.	
+Aeroplane Mode	
+Turn off Aeroplane Mode to enable wireless connectivity.	
+Turn on Aeroplane Mode to disable wireless connectivity.	
+Version: {0}	
+Page {0,number,integer} of {1,number,integer}	
+This page contains settings to personalize your Kindle experience.	
+Available Wi-Fi Networks ({0})~~Network: {1}	
+not registered	
+Registered on {0}	
+Registered User: {0}	
+Name: {0}	
+On	
+Off	
+Password hint: {0}	
+Show	
+Hide	
+show	
+hide	
+Show highlights and notes from other people that you follow on kindle.amazon.com.	
+Enable Annotations Backup	
+Disable Annotations Backup	
+Voice Guide: Turn on/off	
+Turn off Accessible Mode	
+Enable Popular Highlights	
+Disable Popular Highlights	
+{0} of {1}	
+Page {0} of {1}	
+Confirm Password: 	
+Set Password	
+Edit Password	
+Passwords did not match. Please try again.	
+Incorrect password.  Please try again. Enter Password: 	
+611 Page	
+711 Page	
+Yes(1)	
+No(0)	
+********* 1- Device *********~~1.1 DSN: {0}~~1.2 Version: {1}~~1.3 Registration: {2}~~1.4 Certificate: {3}~~1.5 Time: {4}~~~~{5}	
+yyyy-MM-dd HH:mm:ss z	
+UP	
+DOWN	
+411 Page	
+{0}~~~~********* 2- Device Status *********~~2.1 Server info: The FIRS, WEBSITE, TODO, CDE server is {1}, {2}, {3}, {4}~~2.2 Waveform Version: {5}~~2.3 Kindle Store Website: {6}~~2.4 OTA State: {7, choice, 0#OTA Current|1#OTA Update Available}~~2.5 OTA Software Version: {8}~~2.6 Available OTA Version: {9}	
+Switching Wireless Providers	
+Your current provider is {0}.~~Your Kindle will lose its connection during this process. Manually switching wireless providers may take serveral minutes to complete, and your Kindle may not successfully reconnect to the Amazon Whispernet network. Do you wish to continue?	
+An Amazon account is required to register your Kindle. If you do not have an account, go to www.amazon.com/sign-in to create one. For UK customers, go to www.amazon.co.uk/sign-in.~~~~By registering your Kindle, you agree to the Kindle License Agreement and Terms of Use, which can be found in the Appendix of the Kindle User's Guide.~~~~Enter the e-mail address and password associated with your Amazon account. To enter "@" symbol, press the "SYM" key.	

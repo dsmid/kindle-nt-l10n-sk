@@ -1,0 +1,60 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/search/resources/UploadLogsOverlayResources_fr;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+settings.ul.height.portrait
+java/lang/Integer
+settings.ul.width.portrait
+settings.ul.left.margin
+settings.ul.right.margin
+settings.ul.y.margin
+settings.ul.main.title
+Télécharger les journaux
+settings.ul.main.description
+Téléchargez les journaux sur le serveur pour signaler les problèmes.
+settings.error.communication
+Votre Kindle ne peut pas se connecter pour le moment. Veuillez réessayer ultérieurement. Les détails du problème ont été sauvegardés : vous n’avez donc pas besoin de ressaisir le message.
+am.settings.error.wireless.off
+Le mode avion est activé et vous n’êtes pas connecté à un réseau sans fil. Les détails du problème ont été enregistrés, vous n’avez pas besoin de ressaisir le message.
+settings.error.cancelled
+Téléchargement du journal annulé
+settings.error.unknown
+Impossible de télécharger les journaux de l’appareil ; exception inconnue. Si vous souhaitez réessayer, les détails du problème ont été sauvegardés : vous n’avez donc pas besoin de ressaisir le message.
+settings.error.title
+Échec du téléchargement des journaux
+settings.error.overlay.button.retry
+Réessayer
+settings.ul.details.title
+Détails du bug
+settings.ul.details.description
+Incluez tous les détails qui vous semblent utiles, tels qu’une description du problème et l’opération que vous étiez en train d’exécuter quand le problème est survenu.
+settings.ul.font.main.title
+settings.ul.font.section.title
+settings.ul.font.section.description
+settings.ul.font.section.input
+settings.ul.spacing.title.and.description
+settings.ul.spacing.description.and.input
+settings.ul.spacing.input.and.title
+settings.ul.spacing.type.gap
+settings.ul.margins.right
+settings.ul.margins.left
+com/amazon/ebook/booklet/search/resources/UploadLogsOverlayResources_fr
+java/util/ListResourceBundle
+(I)V
+getInstance
+(I)Ljava/awt/Font;
+f
+a
+wae
+sVb
+()Lcom/amazon/ebook/framework/font/h;
+com/amazon/ebook/framework/font/h

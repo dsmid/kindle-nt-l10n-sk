@@ -1,0 +1,57 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/menu/resources/ReaderAppMenuResources_it;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+clip.this.article.finish
+Articolo ritagliato
+menu.go.to
+Vai a...
+menu.my.notes.and.marks
+Visualizza note e segnalibri
+menu.popular.highlights
+Visualizza evidenziazioni frequenti
+most.popular.highlights.max
+java/lang/Integer
+most.popular.highlights.label
+Visualizza le evidenziazioni più frequenti
+menu.item.horizontal.justification
+menu.item.spacer.height
+menu.font.display
+Modifica dimensioni carattere
+menu.screen.rotation
+Rotazione schermo
+menu.zoom.contrast
+Zoom e contrasto
+menu.kindle.image.comic.view
+Visualizzazione Vignette
+menu.kindle.panel.comic.view
+Esci da Visualizzazione Vignette
+menu.kindle.image.children.view
+Kindle Text Pop-Up
+menu.kindle.panel.children.view
+Esci da Kindle Text Pop-Up
+menu.zoom
+Zoom
+menu.item.top.margin
+menu.item.bottom.margin
+menu.item.landscape.font
+com/amazon/ebook/booklet/reader/gui/menu/resources/ReaderAppMenuResources_it
+java/util/ListResourceBundle
+(I)V
+getInstance
+(I)Ljava/awt/Font;
+f
+a
+zaf
+sVb
+()Lcom/amazon/ebook/framework/font/h;
+com/amazon/ebook/framework/font/h

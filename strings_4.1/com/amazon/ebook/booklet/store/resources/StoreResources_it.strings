@@ -1,0 +1,30 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/store/resources/StoreResources_it;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+store.background.color
+searchbar.store.label
+ nel store
+am.ad.details.error.msg
+I dettagli per questo ad non sono più dispoinibili. Disattiva la Modalità Aeroplano per ricevere i contenuti più recenti.
+ad.details.error.msg.connected
+Dettagli su questo annuncio non più disponibili.
+pendingPurchaseOverlay.msg.pattern
+{0,choice,0#Non hai ordini in corso per questa offerta speciale.|1#Hai gia’ un’ordine in corso per questa offerta speciale.|2#Hai gia’ {0,number,integer} ordini in corso per questa offerta speciale.}
+com/amazon/ebook/booklet/store/resources/StoreResources_it
+java/util/ListResourceBundle
+java/awt/Color
+WHITE
+Ljava/awt/Color;
+f
+a
+pgd

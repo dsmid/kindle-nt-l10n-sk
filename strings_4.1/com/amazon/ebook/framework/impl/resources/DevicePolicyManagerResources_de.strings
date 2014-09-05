@@ -1,0 +1,86 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_de;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+device.policy.will.reboot.message
+Der Kindle wird neu gestartet. Der Vorgang beginnt in Kürze. Bitte warten Sie, bis das Gerät neu gestartet ist.
+device.policy.default.devicetype
+Dieser Kindle ist ein verwaltetes Gerät.
+device.policy.default.feature
+Diese Funktion ist gesperrt.
+device.policy.default.contact
+Ihr Systemadministrator
+device.policy.default.customer
+Kindle-Kundenservice unter www.kindle.com/support
+device.policy.parental.devicetype
+Dieser Kindle ist ein eingeschränktes Gerät.
+device.policy.parental.feature
+device.policy.password.required.template
+java/text/MessageFormat
+{0} Es ist ein Passwort erforderlich. Für zusätzliche Informationen kontaktieren Sie {1}.
+device.policy.disabled.template
+{0} {1} Für zusätzliche Informationen kontaktieren Sie {2}.
+device.policy.factory.reset.template
+{0} Es wurde der Befehl erteilt, das Gerät auf die Werkseinstellungen zurückzusetzen. Dadurch werden alle heruntergeladenen und übertragenen Inhalte entfernt. Dieser Vorgang beginnt in Kürze. Bitte warten Sie, bis der Vorgang abgeschlossen ist. Für weitere Informationen wenden Sie sich an: {1}.
+parental.action.disabled.template
+Die Kindersicherung auf Ihrem Kindle ist aktiviert. {0}
+parental.device.policy.action.experimental.browser.disabled
+Webbrowser ist gesperrt.
+parental.device.policy.action.kindlestore.disabled
+Kindle-Shop ist gesperrt.
+parental.device.policy.action.archiveditems.disabled
+Archivierte Inhalte sind gesperrt.
+parental.device.policy.action.activecontent.disabled
+Aktive Inhalte sind gesperrt.
+parental.device.policy.action.purchases.disabled
+Einkäufe sind gesperrt.
+parental.device.policy.action.settings.deregistration.disabled
+Abmeldung ist gesperrt.
+device.policy.default.password.hint
+Standardpasswort aktiviert
+device.policy.disabled.name.registration
+Anmeldung ist gesperrt.
+device.policy.action.settings.deregistration.disabled
+device.policy.action.settings.editdevicename.disabled
+Gerätename ändern ist gesperrt.
+device.policy.action.settings.wifisettings.disabled
+Konfiguration der WLAN-Einstellungen ist gesperrt.
+device.policy.action.settings.managesocialnetworks.disabled
+Konfiguration der sozialen Netzwerke ist gesperrt.
+device.policy.action.settings.togglepopularhighlights.disabled
+Konfiguration von beliebten Markierungen ist gesperrt.
+device.policy.action.settings.togglepublicnotes.disabled
+Konfiguration von öffentlichen Notizen ist gesperrt.
+device.policy.action.settings.toggleannotationsbackup.disabled
+Sicherung der Anmerkungen ist gesperrt.
+device.policy.action.settings.editpersonalinfo.disabled
+Persönliche Info ist gesperrt.
+device.policy.action.settings.changelanguage.disabled
+Konfiguration der Gerätsprache ist gesperrt.
+device.policy.action.settings.changeprimarydictionary.disabled
+Wörterbücher ändern ist gesperrt.
+device.policy.action.settings.turnonpassword.disabled
+Passwortkonfiguration ist gesperrt.
+device.policy.action.experimental.browser.disabled
+device.policy.action.kindlestore.disabled
+device.policy.action.activecontent.disabled
+Active Content ist gesperrt.
+device.policy.action.experimental.mp3player.disabled
+MP3-Player ist gesperrt.
+device.policy.action.builtingames.disabled
+Spiel ist gesperrt.
+com/amazon/ebook/framework/impl/resources/DevicePolicyManagerResources_de
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+f
+a
+dwc

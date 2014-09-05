@@ -1,0 +1,17 @@
+I
+ConstantValue
+(Ljava/lang/String;Ljava/lang/String;)I
+()[Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;[B)Ljava/util/Map;
+([B)Ljava/lang/String;
+SourceFile
+java/lang/Object
+f
+K
+uB
+kb
+JB
+TB
+com/amazon/ebook/pl/service/o
+sc
+LocalVariableTable

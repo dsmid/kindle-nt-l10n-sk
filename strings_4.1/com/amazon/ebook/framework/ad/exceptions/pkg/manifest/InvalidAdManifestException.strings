@@ -1,0 +1,20 @@
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/ad/exceptions/pkg/manifest/InvalidAdManifestException;
+SourceFile
+Ad package manifest is not valid
+adID
+com/amazon/ebook/framework/ad/exceptions/pkg/manifest/InvalidAdManifestException
+com/amazon/ebook/framework/ad/exceptions/pkg/manifest/AdManifestException
+(Lcom/amazon/ebook/util/log/b;Lcom/amazon/ebook/framework/ad/odot/d;Lcom/amazon/ebook/framework/a/h;)V
+a
+Lcom/amazon/ebook/util/log/b;
+Lcom/amazon/ebook/framework/ad/odot/d;
+Lcom/amazon/ebook/framework/a/h;
+xod
+vMB
+(Ljava/lang/String;JLjava/lang/String;Lcom/amazon/ebook/framework/ad/odot/d;Lcom/amazon/ebook/framework/a/h;)Lcom/amazon/ebook/framework/ad/odot/c;
+(Lcom/amazon/ebook/util/log/b;Ljava/lang/String;)V
+com/amazon/ebook/framework/ad/odot/c

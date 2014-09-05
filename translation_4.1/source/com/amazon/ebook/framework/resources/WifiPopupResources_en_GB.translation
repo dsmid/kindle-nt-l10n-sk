@@ -1,0 +1,48 @@
+connect	
+forget	
+connecting...	
+enter other Wi-Fi network	
+scanning...	
+rescan	
+secure	
+open	
+A Wi-Fi connection is required to complete this task. Connect to a Wi-Fi network or try again later.	
+advanced	
+Enter Wi-Fi password for {0}:	
+hide	
+show	
+Password:	
+Unable to Connect to Wi-Fi Network~~~~	
+Your Kindle is unable to connect to the Wi-Fi network "{0}". 	
+Do you wish to try again or set up this network manually?	
+Do you wish to enter the password again or set up this network manually?	
+Wi-Fi Networks: {0}	
+Page {0} of {1}	
+Enter other Wi-Fi network	
+Network name:	
+set up network	
+enter password again	
+try again	
+Sign-in required	
+The Wi-Fi network you are connecting to requires you to sign in before accessing the Internet.~~~~Do you wish to go to Web Browser to sign in?	
+go to browser	
+The password you entered is incorrect or invalid.~~	
+There is no Wi-Fi Profile configured for this network.~~	
+Wi-Fi network connection failed.~~	
+Wi-Fi is not available right now. If the problem persists, please restart your device.~~	
+Local network connection failed.~~	
+Internet connection failed.~~	
+WPS connection failed.~~	
+WPS connection failed. Try entering the password again.~~	
+Invalid Configuration.~~	
+The security type you entered does not match the security type of the Wi-Fi network you are trying to connect to.~~	
+Access point rejected connection request. MAC filtering might be on.~~	
+The name of the Wi-Fi network is too long.~~	
+Enterprise Wi-Fi networks are not supported on Kindle. Try connecting to another network. If you have issues connecting your Kindle to Wi-Fi, you can find help at www.kindle.com/support~~	
+The password you entered is longer than allowed by the Wi-Fi network. Try entering the password again. If you have issues connecting your Kindle to Wi-Fi, you can find help at www.kindle.com/support~~	
+The password you entered is missing one or more characters. Try entering the password again. If you have issues connecting your Kindle to Wi-Fi, you can find help at www.kindle.com/support~~	
+The security type you entered does not match the security type of the Wi-Fi network you are trying to connect to. If you have issues connecting your Kindle to Wi-Fi, you can find help at www.kindle.com/support~~	
+Peer-to-peer Wi-Fi networks are not supported on Kindle. Try connecting to another network. For information about supported Wi-Fi networks, go to www.kindle.com/support~~	
+Unsupported Wi-Fi network~~~~Enterprise or peer-to-peer Wi-Fi networks are not supported. Try connecting to another network.	
+This Kindle is a managed device and Wi-Fi settings cannot be modified. Please contact your system administrator if you have any questions.	
+You can also connect without entering a password. First, press the WPS button on your wireless router, then select the WPS setup button above.	

@@ -1,0 +1,17 @@
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Holder
+InnerClasses
+<clinit>
+SourceFile
+java/lang/Object
+f
+Lcom/amazon/ebook/booklet/reader/oc;
+a
+Lcom/amazon/ebook/booklet/reader/tc;
+com/amazon/ebook/booklet/reader/tc
+vef
+com/amazon/ebook/booklet/reader/oc

@@ -1,0 +1,66 @@
+Ljava/lang/String;
+ConstantValue
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+getInstance
+Ljava/util/Date;
+Ljava/lang/StringBuffer;
+Ljava/io/File;
+SourceFile
+eal
+java/lang/StringBuffer
+<?xml version='1.0'?><endaction timestamp="
+" key="
+" type="
+" guid="
+" version="
+">
+<rating timestamp="
+</rating>
+</endaction>
+java/io/File
+java/lang/Object
+()Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+(Ljava/util/Date;)Ljava/lang/String;
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+getCdeKey
+getCdeType
+getGUID
+getVersion
+()I
+(I)Ljava/lang/StringBuffer;
+toString
+(Ljava/lang/String;)V
+(Ljava/io/File;Ljava/lang/String;Z)Z
+f
+Lcom/amazon/ebook/booklet/reader/readingexperience/localfilehandlers/v;
+K
+vXB
+(Lcom/amazon/ebook/booklet/reader/sdk/p;Ljava/util/Date;Lcom/amazon/ebook/booklet/reader/metadata/endactions/u;)Z
+a
+Lcom/amazon/ebook/booklet/reader/sdk/p;
+Lcom/amazon/ebook/booklet/reader/metadata/endactions/u;
+rzB
+(Lcom/amazon/ebook/booklet/reader/sdk/p;Lcom/amazon/ebook/booklet/reader/metadata/endactions/u;Ljava/util/Date;)Ljava/lang/String;
+NzB
+(Lcom/amazon/ebook/booklet/reader/sdk/p;)Ljava/lang/String;
+()Lcom/amazon/ebook/booklet/reader/readingexperience/localfilehandlers/v;
+com/amazon/ebook/booklet/reader/readingexperience/localfilehandlers/v
+cvd
+lGb
+roA
+Lcom/amazon/ebook/booklet/reader/metadata/endactions/b;
+hZB
+mAc
+aC
+com/amazon/ebook/util/file/l
+com/amazon/ebook/booklet/reader/metadata/endactions/b
+com/amazon/ebook/booklet/reader/metadata/endactions/u
+com/amazon/ebook/booklet/reader/readingexperience/h
+com/amazon/ebook/booklet/reader/metadata/v
+com/amazon/ebook/booklet/reader/sdk/p

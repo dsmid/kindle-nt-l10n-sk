@@ -1,0 +1,57 @@
+Ljava/lang/String;
+I
+Synthetic
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+TemperatureMonitor
+InnerClasses
+()V
+Ljava/lang/NumberFormatException;
+Ljava/io/IOException;
+Ljava/io/BufferedReader;
+SourceFile
+java/io/BufferedReader
+java/io/FileReader
+java/lang/NumberFormatException
+Battery temperature unavailable, error reading integer
+java/io/IOException
+Battery temperature unavailable, IO error reading temperature file
+Battery temperature unavailable, IO error closing temperature file
+Battery temperature unavailable, file does not exist.
+getBookletContext
+()I
+(Ljava/lang/String;)V
+(Ljava/io/Reader;)V
+readLine
+()Ljava/lang/String;
+java/lang/Integer
+parseInt
+(Ljava/lang/String;)I
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+close
+(Ljava/lang/Object;)V
+f
+Lcom/amazon/ebook/booklet/search/jc;
+K
+l
+Uob
+a
+Lcom/amazon/ebook/booklet/search/nb;
+(Lcom/amazon/ebook/booklet/search/jc;Ljava/lang/String;)V
+com/amazon/ebook/booklet/search/nb
+nce
+bQB
+LRB
+uRB
+(Lcom/amazon/ebook/booklet/search/jc;Z)V
+EI
+()Lcom/amazon/ebook/framework/a/h;
+aSA
+()Lcom/amazon/ebook/booklet/search/db;
+com/amazon/ebook/booklet/search/sdk/bb
+com/amazon/ebook/booklet/search/jc
+com/amazon/ebook/framework/a/h
+com/amazon/ebook/booklet/search/db
+com/amazon/ebook/util/d/c

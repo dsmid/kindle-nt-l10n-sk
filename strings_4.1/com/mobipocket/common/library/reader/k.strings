@@ -1,0 +1,218 @@
+PageTableData
+InnerClasses
+Z
+ConstantValue
+Ljava/util/Vector;
+I
+Ljava/util/Random;
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+J
+()V
+()Z
+()Ljava/util/Vector;
+()I
+getEndPosition
+(Ljava/util/Vector;)V
+[I
+(IIII)Ljava/util/Vector;
+(Ljava/util/Vector;ILjava/util/Vector;I)Z
+isEmpty
+SourceFile
+java/util/Vector
+java/util/Random
+Wrong call of page reinit
+nonInsertedElements is null
+TagAndAttributeStack is null
+must not be
+Wrong call to getPageBeginPosition : no objects in the current page
+Draw called, but the current page contains no elements
+invalid call of drawPage (internal Core bug
+no predrawing of the page : not enough memory for imageFactory.getBufferedImage or not implemented (return null)
+Fast draw
+Preblitting enabled
+BufferedImage.getGraphics() return null ! --> catched but preblitting doesn't work
+Preblitting NOT enabled
+wrong call of drawPage : Prelayouting enabled but BufferedImages not implemented
+error handled in LayoutedFrame.drawText
+error
+negative number of blanks on the line: must be impossible
+error deco begin > end
+java/lang/StringBuffer
+drawdecoration begin:
+ end:
+ x:
+ y:
+No Non Ended area --> internal bug
+java/lang/Object
+size
+java/lang/System
+currentTimeMillis
+()J
+setSeed
+(J)V
+removeAllElements
+(I)V
+(IZLjava/lang/String;)V
+addElement
+(Ljava/lang/Object;)V
+elementAt
+(I)Ljava/lang/Object;
+(ILjava/lang/String;)V
+getGraphics
+fillRect
+(IIII)V
+getFont
+getHeight
+drawLine
+getColor
+(ZLjava/lang/String;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+removeElement
+(Ljava/lang/Object;)Z
+lastElement
+()Ljava/lang/Object;
+f
+Lcom/mobipocket/common/library/reader/z;
+K
+l
+L
+m
+Lcom/amazon/a/b/b;
+a
+Lcom/mobipocket/common/parser/y;
+F
+e
+g
+k
+h
+j
+D
+b
+M
+A
+c
+C
+B
+EjA
+(Ljava/util/Vector;I)Lcom/mobipocket/common/library/reader/ud;
+tiA
+Lcom/mobipocket/common/library/reader/ud;
+IhA
+yIA
+Lcom/mobipocket/common/library/reader/x;
+UiA
+(Ljava/util/Vector;Lcom/mobipocket/common/library/reader/ud;I)V
+lhA
+(Lcom/amazon/a/b/c;IILjava/util/Vector;Z)V
+Lcom/mobipocket/common/library/reader/k;
+Lcom/amazon/a/b/c;
+Lcom/mobipocket/common/library/reader/ib;
+XGA
+(Lcom/amazon/a/b/c;IIIILcom/mobipocket/common/library/reader/ib;Z)V
+Lcom/amazon/a/b/o;
+oGA
+HIA
+(Lcom/amazon/a/b/c;IIII)V
+Lcom/mobipocket/common/parser/c;
+Lcom/mobipocket/common/library/reader/pb;
+Lcom/mobipocket/common/library/reader/l;
+BhA
+(Lcom/amazon/a/b/c;IIIII)V
+OHA
+(Lcom/amazon/a/b/c;III)V
+JIA
+Lcom/mobipocket/common/library/reader/ab;
+UjA
+bgA
+Lcom/mobipocket/common/library/reader/f;
+TIA
+BiA
+KIA
+rhA
+()Lcom/mobipocket/common/parser/y;
+sHA
+yjA
+iGA
+kGA
+(Ljava/util/Vector;ILcom/mobipocket/common/parser/y;)V
+JjA
+([Lcom/mobipocket/common/library/reader/x;ILcom/mobipocket/common/parser/y;)V
+[Lcom/mobipocket/common/library/reader/x;
+VGA
+(Lcom/amazon/a/b/h;II)V
+Lcom/amazon/a/b/h;
+LiA
+(Lcom/amazon/a/b/h;IIZ)V
+com/mobipocket/common/library/reader/k
+qx
+hmA
+uJA
+QgA
+vDA
+nlA
+SLA
+yfA
+MdA
+OGA
+djA
+bU
+CeA
+(Lcom/amazon/a/b/c;II)V
+AaA
+OFA
+GeA
+(Lcom/mobipocket/common/library/reader/pb;)V
+veA
+oDA
+(ILcom/mobipocket/common/parser/c;)V
+up
+bH
+zEA
+VFA
+()Lcom/mobipocket/common/parser/c;
+eI
+cJ
+dGA
+tn
+()Lcom/amazon/a/b/v;
+WaA
+AgA
+mEA
+deA
+BS
+xt
+()Lcom/amazon/a/b/c;
+ddA
+VT
+(Lcom/amazon/a/b/b;II)V
+ujA
+YfA
+YDA
+JFA
+cbA
+kFA
+bp
+(II)Lcom/amazon/a/b/b;
+com/amazon/a/b/v
+com/mobipocket/common/parser/c
+com/amazon/a/b/b
+com/amazon/a/b/c
+com/mobipocket/common/b/d
+com/amazon/a/b/h
+com/mobipocket/common/library/reader/ud
+com/mobipocket/common/library/reader/ib
+com/amazon/a/b/o
+com/mobipocket/common/library/reader/pb
+com/mobipocket/common/library/reader/l
+com/mobipocket/common/library/reader/ab
+com/mobipocket/common/library/reader/f
+com/mobipocket/common/library/reader/x
+com/mobipocket/common/library/reader/bb
+com/mobipocket/common/library/reader/z

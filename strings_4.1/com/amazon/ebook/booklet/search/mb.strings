@@ -1,0 +1,92 @@
+Synthetic
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+IndexingThread
+InnerClasses
+run
+()V
+I
+AbortIndexing
+Lcom/amazon/ebook/booklet/search/sdk/SearchSDK$AbortIndexing;
+Ljava/lang/Exception;
+Ljava/lang/OutOfMemoryError;
+Ljava/lang/Error;
+SourceFile
+Index Generation Thread
+cleaning up temp files
+purging obsolete indexes
+compacting the database
+java/lang/String
+com/amazon/ebook/booklet/search/sdk/SearchSDK$AbortIndexing
+java/lang/Exception
+Unknown error while indexing.
+java/lang/OutOfMemoryError
+Out of memory error while indexing.
+Aborting Index Generation because of low memory.
+java/lang/Error
+Unknown Error while indexing. This can mean index corruption.
+not running
+Aborted indexing.
+(Ljava/lang/String;)V
+Z
+Messages
+(I)V
+SystemResponsivenessHelper
+(I)Z
+()Z
+()J
+valueOf
+(J)Ljava/lang/String;
+(I[Ljava/lang/String;)V
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+(Ljava/lang/Object;Ljava/lang/Throwable;)V
+(Ljava/lang/Object;)V
+f
+Lcom/amazon/ebook/booklet/search/jc;
+a
+Lcom/amazon/ebook/booklet/search/mb;
+Lcom/amazon/ebook/booklet/search/sdk/dd;
+(Lcom/amazon/ebook/booklet/search/jc;)V
+com/amazon/ebook/booklet/search/mb
+nce
+bQB
+QpB
+isB
+(Lcom/amazon/ebook/booklet/search/jc;Z)Z
+wTB
+(Lcom/amazon/ebook/booklet/search/jc;Lcom/amazon/ebook/util/a/w;)Lcom/amazon/ebook/util/a/w;
+UsB
+(Lcom/amazon/ebook/booklet/search/jc;)Ljava/lang/Object;
+ntB
+(Lcom/amazon/ebook/booklet/search/jc;Z)V
+H
+YVB
+LRB
+BM
+ipB
+BUB
+c
+Lhb
+JSB
+fTB
+BTB
+(I)Lcom/amazon/ebook/booklet/search/sdk/ac;
+CwB
+mTB
+btB
+pvB
+wN
+arB
+()Lcom/amazon/ebook/booklet/search/sdk/h;
+EpB
+A
+K
+com/amazon/ebook/booklet/search/sdk/ac
+com/amazon/ebook/booklet/search/sdk/h
+com/amazon/ebook/booklet/search/sdk/bb
+com/amazon/ebook/booklet/search/sdk/xb
+com/amazon/ebook/booklet/search/jc
+com/amazon/ebook/util/a/w
+com/amazon/ebook/booklet/search/sdk/dd

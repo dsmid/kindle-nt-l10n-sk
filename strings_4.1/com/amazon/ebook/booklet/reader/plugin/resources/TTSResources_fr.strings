@@ -1,0 +1,33 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/plugin/resources/TTSResources_fr;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+tts.no.text.msg
+Il n’y a plus de texte à lire dans cet élément. Vous allez quitter la synthèse vocale.
+tts.unknown.error.msg
+La synthèse vocale a détecté une erreur inattendue. Si le problème persiste, veuillez redémarrer votre appareil à partir de la page Paramètres.
+tts.player.decrease.speech.rate.text
+Plus lentement
+tts.player.increase.speech.rate.text
+Plus rapidement
+tts.player.window.offset.from.bottom
+java/lang/Integer
+tts.foreground.color
+com/amazon/ebook/booklet/reader/plugin/resources/TTSResources_fr
+java/util/ListResourceBundle
+(I)V
+Ljava/awt/Color;
+f
+a
+xsd
+l
+com/amazon/ebook/framework/gui/c

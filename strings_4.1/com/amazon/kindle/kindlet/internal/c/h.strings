@@ -1,0 +1,15 @@
+Exceptions
+()V
+SourceFile
+java/lang/Object
+java/io/IOException
+dF
+(Lcom/amazon/kindle/kindlet/internal/install/p;)V
+lG
+sF
+(Lcom/amazon/ebook/framework/service/h;Lcom/amazon/kindle/kindlet/internal/install/p;)Lcom/amazon/kindle/kindlet/internal/c/p;
+Gg
+(Lcom/amazon/kindle/kindlet/internal/install/p;Ljava/io/File;)V
+com/amazon/kindle/kindlet/internal/c/h
+qk
+LocalVariableTable

@@ -1,0 +1,14 @@
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+()Lcom/amazon/ebook/framework/gui/overlays/Overlay;
+SourceFile
+java/lang/Object
+xP
+a
+Lcom/amazon/ebook/booklet/reader/gui/view/tabularview/a;
+com/amazon/ebook/booklet/reader/gui/view/tabularview/a
+tj
+com/amazon/ebook/framework/gui/event/v

@@ -1,0 +1,30 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/store/resources/StoreResources_fr;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+store.background.color
+searchbar.store.label
+ la boutique kindle
+am.ad.details.error.msg
+Les détails de cette publicité ne sont plus disponibles. Désactivez le mode avion pour recevoir le contenu le plus récent.
+ad.details.error.msg.connected
+Les détails concernant cette publicité ne sont plus disponibles.
+pendingPurchaseOverlay.msg.pattern
+{0,choice,0#Vous n’avez pas de commandes en attente pour cette offre spéciale.|1#Vous avez déjà une commande en attente pour cette offre spéciale.|2#Vous avez déjà {0,number,integer} commandes en attente pour cette offre spéciale.}
+com/amazon/ebook/booklet/store/resources/StoreResources_fr
+java/util/ListResourceBundle
+java/awt/Color
+WHITE
+Ljava/awt/Color;
+f
+a
+tld
